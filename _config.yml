@@ -1,0 +1,22 @@
+title: Pathos Page
+description: 法哲学片断与学术之路
+show_downloads: false
+permalink: /:title:output_ext
+timezone: Asia/Shanghai
+author: Pathos Page
+google_analytics: 
+theme: jekyll-theme-tactile
+baseurl:
+url: https://pathos.page
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll/tagging
+  - jekyll-tagging-related_posts
+sass:
+    style: compressed
+paginate: 10
+paginate_path: "/page/:num"

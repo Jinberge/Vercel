@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+<p>{{ page.date | date: "%Y-%m-%d" }}  {{ page.author }}</p>
+
+{% include toc.html html=content %}
+
+{{ content | toc }}
+ 
+ {% if site.related_posts.size >= 1 %}
+<div>
+  <h2>相关文章</h2>
+  <ul>
+  {% for related_post in site.related_posts limit: 5 %}
+    <li><a href="{{ related_post.url }}">{{ related_post.title }}</a></li>
+  {% endfor %}
+  </ul>
+</div>
+
+
+<section class="giscus">
+  <script src="https://giscus.app/client.js"
+          data-repo="Pathsis/comments"
+          data-repo-id="R_kgDOGazMEw"
+          data-category="Announcements"
+          data-category-id="DIC_kwDOGazME84B_-mW"
+          data-mapping="title"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-theme="light"
+          data-lang="zh-CN"
+          crossorigin="anonymous"
+          async>
+  </script>
+  </section>
+{% endif %}

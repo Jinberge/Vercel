@@ -1,0 +1,43 @@
+---
+layout: default
+title: 搜索
+permalink: /search/
+---
+<h2>搜索</h2>
+<!-- HTML elements for search -->
+<input type="text" id="search-input" placeholder="搜索标题或标签" style="width:350px;height:30px;font-size: 16px;"/>
+
+<ul id="results-container"></ul>
+
+<!-- script pointing to jekyll-search.js -->
+
+<script src="/js/simple-jekyll-search.min.js"></script>
+
+<script>
+SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+    noResultsText: '没有搜索到文章',
+    limit: 20,
+    fuzzy: false
+  })
+</script>
+<h2>归档</h2>
+<ul>
+  {% for post in site.posts %}
+
+    {% unless post.next %}
+      <h2>{{ post.date | date: '%Y年' }}</h2>
+    {% else %}
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+      {% if year != nyear %}
+        <h2>{{ post.date | date: '%Y年' }}</h2>
+      {% endif %}
+    {% endunless %}
+
+    <h5>{{ post.date | date:"%m月%d日" }} <a href="{{ post.url }}">{{ post.title }}</a></h5>
+  {% endfor %}
+</ul>

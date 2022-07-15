@@ -3,7 +3,6 @@ layout: post
 title: 安斯康姆：论天然事实
 tags: 安斯康姆 语言哲学 维特根斯坦 规则 事实
 excerpt: 一个制度事实的陈述并不提供对其背后的制度事实的描述。
-redirect_from: /anscombe-on-brute-facts
 ---
 
 ![img](https://res-3.cloudinary.com/mkyos/image/upload/q_auto/v1/blog-images/elizabeth-anscombe.jpg)

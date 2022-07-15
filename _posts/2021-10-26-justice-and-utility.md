@@ -3,7 +3,6 @@ layout: post
 title: 正义与功利：理解罗尔斯的正义理论
 tags: 罗尔斯 契约论 正义论
 excerpt: 否认正义的优先性没什么原罪，因为它不再等于否认社会首要原则的优先性本身。
-redirect_from: /zheng-yi-yu-gong-li
 ---
 
 ![img](https://res.cloudinary.com/mkyos/image/upload/v1638018401/blog-images/John_Rawls_zasjmd.jpg)

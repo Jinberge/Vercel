@@ -3,7 +3,6 @@ layout: post
 title: 微信群聊天中令人讨厌的几类人
 tags: 时事评论
 excerpt: 微信群中的对话，不过是社会交往中的对话的一个投影。
-redirect_from: /wei-xin-qun-liao
 ---
 
 ## 不参与实质对话，只在一旁评论对话

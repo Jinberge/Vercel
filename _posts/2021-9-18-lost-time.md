@@ -3,7 +3,6 @@ layout: post
 title: 苍茫时刻
 tags: 学术之路
 excerpt: 做学问，尤其是做哲学社会科学，对于每个人来说都是一场修行。
-redirect_from: /lost-time
 ---
 
 写在前面：

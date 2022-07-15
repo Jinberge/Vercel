@@ -3,7 +3,6 @@ layout: post
 title: 直觉在罗尔斯正义论内部的位置
 tags: 罗尔斯 契约论 正义论 
 excerpt: 我们不能直接说，直觉是原则裁判者，或者原则是直觉的裁判者，我们只能说它们彼此是对方的裁判者，至少在达到一定的反思平衡之前是这样。
-redirect_from: /the-role-of-intuition-in-rawls-theory-of-justice
 ---
 
 ![img](https://res.cloudinary.com/mkyos/image/upload/v1638018401/blog-images/John_Rawls_zasjmd.jpg)

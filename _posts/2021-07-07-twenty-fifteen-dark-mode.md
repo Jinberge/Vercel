@@ -3,7 +3,6 @@ layout: post
 title: 给WordPress的twenty fifteen主题添加暗黑模式
 tags: 博客
 excerpt: 代码如下
-redirect_from: /twenty-fifteen-dark-mode
 ---
 
 代码如下：

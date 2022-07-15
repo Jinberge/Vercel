@@ -3,7 +3,6 @@ layout: post
 title: 罗尔斯契约论内外的选择和持有问题
 tags: 罗尔斯 契约论 正义论
 excerpt: 如果我们还没有就正义持有任何观念，那么我们不可能成为契约论的作者和读者。如果我们已经就正义持有了特定观念，那么我们就不能混淆契约论中的人们的选择和我们的持有。契约论提供的只是一个已经持有的观念的反思装置。
-redirect_from: /rawls-discusses-the-choice-and-possession-of-contract-inside-and-outside
 ---
 
 ![img](https://res.cloudinary.com/mkyos/image/upload/v1638018401/blog-images/John_Rawls_zasjmd.jpg)

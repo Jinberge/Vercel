@@ -3,7 +3,6 @@ layout: post
 title: 罗尔斯正义论中的“正义优先性”问题
 tags: 罗尔斯 正义论 契约论
 excerpt: 我们不能把澄清和重申自己观念视为对相反观念是错误的这一点的证明。
-redirect_from: /the-priority-of-justice-in-rawls-theory-of-justice
 ---
 
 ![img](https://res.cloudinary.com/mkyos/image/upload/v1638018401/blog-images/John_Rawls_zasjmd.jpg)

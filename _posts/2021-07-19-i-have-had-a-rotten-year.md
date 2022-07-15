@@ -3,7 +3,6 @@ layout: post
 title: 我这一年来的堕落
 tags: 注意力 学术之路
 excerpt: 为什么我需要被这样的工具牵引着注意力？
-redirect_from: /yi-nian-lai-de-duo-luo
 ---
 
 ## 过去的状态

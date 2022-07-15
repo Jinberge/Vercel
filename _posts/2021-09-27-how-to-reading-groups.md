@@ -3,8 +3,6 @@ layout: post
 title: 读书会：原则、动机和方法
 tags: 学术之路
 excerpt: 为何参加读书会？如何参加读书会？介绍一种“阅读理解式的”读书会。
-redirect_from: /du-shu-hui
-toc: true
 ---
 
 ## 认真读好手边的书

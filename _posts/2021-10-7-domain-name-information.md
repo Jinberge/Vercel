@@ -3,7 +3,6 @@ layout: post
 title: 域名见闻录
 tags: 博客
 excerpt: 我为何更换.xyz域名？godaddy如何坐地起价？我的网站的新域名意义是什么？
-redirect_from: /domain-name-information
 ---
 
 最近几天想给我的博客换个域名。我原先的博客域名monist.xyz，是在namecheap上注册的。monist是我当时读罗素时熟悉的，*Mind*或*The Monist*是两个哲学刊物。不用说，mind这个词应该被注册完了，于是尝试monist。还好monist算是一个比较生僻的词，虽然是一个简单的单词，不至于被完全被抢注。namecheap推荐了monist.xyz。我大概查了下.xyz这个顶级域名，就看到它的注册局员工到处吹嘘这个域名好。本来我也并不在意这些，我只想知道这个域名是不是一个还算“正常”的域名。

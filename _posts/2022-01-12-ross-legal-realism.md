@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 阿尔夫·罗斯的法律现实主义
-tags: 阿尔夫·罗斯 法律现实主义
+title: 罗斯的法律现实主义
+tags: 罗斯 法律现实主义
 excerpt: 罗斯的法律学说很像一种社会学说，其问题出发点是，如果我们要把某一阶段的社会现象理解为是在遵循法律规范，那么将如何论证这一点，而不是，弄清楚到底我们的法律规范是什么，以使我们明白未来应当做什么。
 ---
 
-![img](/assets/images/2022-01-12/1.jpeg)
+![img](/img/2022-01-12/1.jpeg)
 
 哈特曾以“Scandinavian Realism”( _Essays in Jurisprudence and Philosophy_,Oxford University Press, 1983, pp.162-169.)为题讨论了阿尔夫·罗斯(Alf Ross)的法律现实主义。这篇文章主要讨论了两个议题：
 

@@ -3,7 +3,6 @@ layout: post
 title: 为什么我会使用Roam Research？
 tags: 工具 Roam-Research
 excerpt: 使用双链笔记的缘由和隐忧。
-redirect_from: /why-roam-research
 ---
 
 

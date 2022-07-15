@@ -3,7 +3,6 @@ layout: post
 title: 为什么现在还不宜考虑 ghost？
 tags: 博客
 excerpt: ghost的定位是在线出版程序，而不是通用CMS。它希望保持足够的灵活，所有的基础功能由更细分领域的其他产品提供。就一个博客程序而言，由于没有提供搜索和评论等基础功能，ghost目前就像一个不能看时间的Apple Watch 。
-redirect_from: /why-not-consider-ghost-now
 ---
 
 ![img](https://res-4.cloudinary.com/mkyos/image/upload/q_auto/v1/blog-images/website-on-ghost.png)

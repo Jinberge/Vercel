@@ -3,7 +3,6 @@ layout: post
 title: 计算机真的在写诗吗？
 tags: AI
 excerpt: 可能，刘慈欣的整个讨论充满了对数学、心灵、观念、存在等问题的基本误解，以十分粗糙的还原论来讲述了这么一个在哲学和科学上不可能的故事。
-redirect_from: /ji-suan-ji-xie-shi
 ---
 
 catbaron的一篇文章[P与NP的诗人](https://catbaron.com/blog/?p=1758)很有意思,当时就想讨论，但写了几段又放弃了因为涉及的问题很多，一时说不清楚。

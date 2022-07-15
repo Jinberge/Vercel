@@ -3,7 +3,6 @@ layout: post
 title: 博客是件玩具
 tags: 博客
 excerpt: 我玩博客还是博客玩我？
-redirect_from: /a-blog-is-a-toy
 ---
 ## 我玩博客还是博客玩我？
 

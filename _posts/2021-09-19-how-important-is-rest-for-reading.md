@@ -3,7 +3,6 @@ layout: post
 title: 休息对阅读有多重要？
 tags: 学术之路
 excerpt: 为什么一看书就犯困？是大脑在切换“工作状态”！
-redirect_from: /how-important-is-rest-for-reading
 ---
 
 休息对于阅读具有头等重要性，正如不是要等到渴了才喝水，对于读书人来说，也不是要等到困了才休息。

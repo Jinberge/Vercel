@@ -3,7 +3,6 @@ layout: post
 title: 塞尔：构成性规则
 tags: 塞尔 语言哲学 规则
 excerpt: 调整性规则(regulative rules)调整既存的行为形式，构成性规则(constitutive rules)使新的行为形式成为可能。它们构成了它们所调整的现象。天然事实(brute facts)能够独立于任何制度存在。制度性事实(institutional facts)需要预先存在的制度，其中包含了构成性规则的体系。构成性规则通过新的权力创造了新的现实形式( forms of reality)，它们通常需要语言，并且它们是人类文明的基础。
-redirect_from: /constitutive-rules
 ---
 
 ![img](https://res-5.cloudinary.com/mkyos/image/upload/q_auto/v1/blog-images/searle-john-bw1.jpg)

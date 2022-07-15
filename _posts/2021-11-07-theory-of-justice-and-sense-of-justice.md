@@ -3,7 +3,6 @@ layout: post
 title: 正义理论与正义感
 tags: 罗尔斯 正义论 契约论
 excerpt: 对于一种正义理论而言，如果“真正的正义原则”这种想法是重要的，那么“真正的正义感”这种想法也是重要的。
-redirect_from: /theory-of-justice-and-sense-of-justice
 ---
 
 

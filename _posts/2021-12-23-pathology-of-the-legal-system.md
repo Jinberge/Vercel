@@ -7,7 +7,7 @@ excerpt: primary rules是原生的，而secondary rules是次生的。
 last_modified_at: 2021-12-24
 ---
 
-![H.L.A.Hart](/assets/images/2021-12-23/1.jpg)
+![H.L.A.Hart](/img/2021-12-23/1.jpg)
 
 ## 前言
 

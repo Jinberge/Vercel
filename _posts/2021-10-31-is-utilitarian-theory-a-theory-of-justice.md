@@ -3,7 +3,6 @@ layout: post
 title: 功利主义理论是一种正义理论吗？
 tags: 罗尔斯 契约论 正义论
 excerpt: 一个人有如此这般的观念，使得他是如此看待事物的，这个事实有多大的力量呢？
-redirect_from: /is-utilitarian-theory-a-theory-of-justice
 ---
 
 ![img](https://res.cloudinary.com/mkyos/image/upload/v1638018401/blog-images/John_Rawls_zasjmd.jpg)

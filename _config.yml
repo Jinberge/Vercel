@@ -20,3 +20,8 @@ sass:
     style: compressed
 paginate: 10
 paginate_path: "/page/:num"
+
+algolia:
+  application_id: "9IMSTE6K7F"
+  index_name: "Vercel"
+  search_only_api_key: "083dce3fad494ea2677fed7bc3442523"

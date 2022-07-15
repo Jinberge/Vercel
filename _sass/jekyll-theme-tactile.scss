@@ -131,6 +131,7 @@ a.navi:hover {
 #container {
   min-height: 595px;
   background: transparent url(/img/bg/highlight-bg.jpg) 50% 0 no-repeat;
+  transition: background .4s ease,-webkit-box-shadow .4s ease;
 }
 
 .inner {

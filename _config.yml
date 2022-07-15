@@ -26,6 +26,5 @@ algolia:
   application_id: 9872TK5O1S
   index_name: Vercel
   search_only_api_key: cb96ceb3b9b2662dc26d1fd67ff62534
-
-mailchimp-list: //uselus.us6.list-manage.com/subscribe/post?u=f54222e57b120370056706959&id=7f2a5ff8cd
+  
 

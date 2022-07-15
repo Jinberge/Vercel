@@ -23,8 +23,8 @@ paginate: 10
 paginate_path: "/page/:num"
 
 algolia:
-  application_id: LMLNNI8SR9
-  index_name: pathos_vercel
-  search_only_api_key: 7d021be1658da99c0eddbaaffcbbcf69
+  application_id: 9872TK5O1S
+  index_name: Vercel
+  search_only_api_key: cb96ceb3b9b2662dc26d1fd67ff62534
 
 

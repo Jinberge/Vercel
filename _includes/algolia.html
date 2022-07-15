@@ -20,7 +20,7 @@ const search = instantsearch({
 const hitTemplate = function(hit) {
   let date = '';
   if (hit.date) {
-    date = moment.unix(hit.date).format('Y-m-d');
+    date = moment.unix(hit.date).format('Y-M-d');
   }
 
   let url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;

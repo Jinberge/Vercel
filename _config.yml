@@ -5,7 +5,7 @@ permalink: /:title:output_ext
 timezone: Asia/Shanghai
 author: Pathos Page
 google_analytics: 
-theme: 
+theme: jekyll-theme-tactile
 baseurl:
 url: https://pathos.page
 plugins:

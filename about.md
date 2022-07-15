@@ -31,7 +31,7 @@ kmt007#outlook.com
 欢迎通过电子邮件订阅，可以随时退订。确认网页载入较慢，请让它在后台慢慢载入。
 
 <!-- Begin Mailchimp Signup Form -->
-<link href="https://cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/mailchimp.css" rel="stylesheet" type="text/css">
 
 <style type="text/css">
  #mc_embed_signup{background:#fff; clear:left; font:16px Helvetica,Arial,sans-serif; }

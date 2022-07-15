@@ -38,10 +38,6 @@ nav{
   list-style-image: inside;
   list-style-type: none;
   margin: 0;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
 }
 
 body {
@@ -119,7 +115,6 @@ a.navi{
     /*box-shadow: inset 0 0 0 1px #fff;*/
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     transition: all 0.23s ease-in-out 0s;
-    transition: box-shadow .4s ease,background .4s ease,-webkit-box-shadow .4s ease;
 }
 a.navi:hover {
   color: #b71c1c;
@@ -131,7 +126,6 @@ a.navi:hover {
 #container {
   min-height: 595px;
   background: transparent url(/img/bg/highlight-bg.jpg) 50% 0 no-repeat;
-  transition: background .4s ease,-webkit-box-shadow .4s ease;
 }
 
 .inner {
@@ -477,7 +471,6 @@ textarea {
 }
 input{
   font-size: 1.1em;
-  
   width: 325px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 } 

@@ -20,7 +20,7 @@ const search = instantsearch({
 const hitTemplate = function(hit) {
   let date = '';
   if (hit.date) {
-    date = moment.unix(hit.date).format('%Y-%m-%d');
+    date = moment.unix(hit.date).format('Y-m-d');
   }
 
   let url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
@@ -39,7 +39,7 @@ const hitTemplate = function(hit) {
   return `
     <div class="post-item">
       <span class="post-meta">${date}</span>
-      <h3><a class="post-link" href="${url}">${title}</a></h3>
+      <h2><a class="post-link" href="${url}">${title}</a></h2>
       {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
       <div class="post-snippet">${content}</div>
     </div>
@@ -70,7 +70,7 @@ search.start();
 .ais-search-box {
   max-width: 100%;
   margin-bottom: 15px;
-  font-size: 16px;
+  font-size:16px;
 }
 .post-item {
   margin-bottom: 30px;
@@ -93,7 +93,7 @@ search.start();
   font-style: normal;
 }
 .post-snippet .ais-Highlight {
-  color: #b71c1c;
+  color: #2a7ae2;
   font-style: normal;
   font-weight: bold;
 }

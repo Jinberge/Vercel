@@ -9,7 +9,6 @@ gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
 gem "jekyll-tagging"
 gem "jekyll-tagging-related_posts"
-gem "jekyll-algolia"
 gem "kramdown-parser-gfm"
 
 gem 'jekyll', '~> 3.6'

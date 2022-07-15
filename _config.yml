@@ -8,6 +8,7 @@ google_analytics:
 theme: jekyll-theme-tactile
 baseurl:
 url: https://pathos.page
+incremental: true
 plugins:
   - jekyll-feed
   - jekyll-paginate

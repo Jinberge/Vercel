@@ -4,26 +4,13 @@ title: 归档
 permalink: /archive/
 ---
 <h2>搜索</h2>
-<!-- HTML elements for search -->
-<input type="text" id="search-input" placeholder="搜索标题、标签与日期" style="width:350px;height:30px;font-size: 16px;"/>
 
-<ul id="results-container"></ul>
+<div id="search-searchbar"></div>
 
-<!-- script pointing to jekyll-search.js -->
+<div class="post-list" id="search-hits">
+</div>
+{% include algolia.html %}
 
-<script src="/js/simple-jekyll-search.min.js"></script>
-
-<script>
-SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    json: '/search.json',
-    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
-    noResultsText: '没有搜索到文章',
-    limit: 20,
-    fuzzy: false
-  })
-</script>
 <h2>归档</h2>
 <ul>
   {% for post in site.posts %}

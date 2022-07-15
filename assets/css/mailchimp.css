@@ -21,7 +21,9 @@
     border: 1px solid #ddd;
     border-radius: 25px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-    transition: all 0.23s ease-in-out 0s;}
+    transition: all 0.23s ease-in-out 0s;
+    line-height: 1.7;
+}
 
 #mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
 #mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}

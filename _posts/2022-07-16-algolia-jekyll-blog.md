@@ -13,7 +13,24 @@ excerpt: 在Vercel上设置Algolia的关键的步骤。
 
 第一，在根目录新建一个名为search.json的文件，内容如下：
 
-![json](/img/2022-07-16/7.png)
+```json
+{% raw %}
+---
+layout: none
+---
+[
+  {% for post in site.posts %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "date"     : "{{ post.date }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
+{% endraw %}
+```
 
 请到上述Github上获取这个代码片断。
 
@@ -283,11 +300,13 @@ search.start();
 方法同简单本地搜索类似，在根目录新建search.md文件，添加如下内容：
 
 ```html
+{% raw %}
 <div id="search-searchbar"></div>
 
 <div class="post-list" id="search-hits">
 </div>
 {% include algolia.html %}
+{% endraw %}
 ```
 
 当然，你可以将其放置在任何你先要展现搜索的模版文件中，比如在archive或tags中。不必单独成页。

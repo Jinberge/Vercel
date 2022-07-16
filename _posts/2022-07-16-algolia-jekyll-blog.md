@@ -31,8 +31,6 @@ layout: none
 ]
 ```
 
-请到上述Github上获取这个代码片断。
-
 第二，在根目录新建一个名为search.md的文件，内容如下：
 
 ```html

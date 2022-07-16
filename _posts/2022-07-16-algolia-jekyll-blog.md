@@ -31,7 +31,7 @@ layout: none
 ]
 ```
 
-第二，在根目录新建一个名为search.md的文件，内容如下：
+第二，在根目录新建一个名为`search.md`的文件，内容如下：
 
 ```html
 <!-- HTML elements for search -->

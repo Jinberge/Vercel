@@ -386,4 +386,8 @@ Netlify上的Algolia显得更现代，显示结果更直接了当；相比之下
 
 如果你不在乎Netlify稍微慢的网速，可以直接使用Netlify的Algolia，这会方便很多。
 
+最后，关于请求的计算，请参考[官方文档](https://www.algolia.com/doc/faq/accounts-billing/what-is-a-usage-unit/?utm_medium=page_link&utm_source=dashboard)。
+
+目前，假设你搜索“博客”，则至少请求5次；如果删除重新输入，则还要浪费2次；如果输入错误了，还会继续浪费请求。每键入一个字母，执行1次请求。所以，如果实在不够用，请回到本地搜索。
+
 如果你遇到了问题，可以在下方给我留言。

@@ -13,22 +13,9 @@ excerpt: 在Vercel上设置Algolia的关键的步骤。
 
 第一，在根目录新建一个名为search.json的文件，内容如下：
 
-```yaml
----
-layout: null
----
-[
-  {% for post in site.posts %}
-    {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
-]
-```
+![json](/img/2022-07-16/7.png)
+
+请到上述Github上获取这个代码片断。
 
 第二，在根目录新建一个名为search.md的文件，内容如下：
 

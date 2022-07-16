@@ -13,7 +13,7 @@ excerpt: 在Vercel上设置Algolia的关键的步骤。
 
 第一，在根目录新建一个名为search.json的文件，内容如下：
 
-```json
+```html
 ---
 layout: null
 ---

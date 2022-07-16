@@ -18,7 +18,7 @@ excerpt: 在Vercel上设置Algolia的关键的步骤。
 layout: null
 ---
 \[
-  {% for post in site.posts %}
+  \{% for post in site.posts %}
     {
       "title"    : "{{ post.title | escape }}",
       "category" : "{{ post.category }}",
@@ -26,7 +26,7 @@ layout: null
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "date"     : "{{ post.date }}"
     } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
+  \{% endfor %}
 \]
 ```
 

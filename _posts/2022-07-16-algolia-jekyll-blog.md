@@ -5,7 +5,7 @@ tags: 博客
 excerpt: 在Vercel上设置Algolia的关键的步骤。
 ---
 
-## 从一个简单的本地搜索开始
+## 1.从一个简单的本地搜索开始
 
 如果只是想要拥有一个简单的搜索功能，建议使用[simple-jekyll-search](https://github.com/christian-fei/Simple-Jekyll-Search)这个插件。这个插件可以本地运行，可以搜索标题、标签、时间、网站。Github上虽然也提供了全文搜索的选项，但我没有成功，也不推荐使用，因为可能会导致性能问题。
 
@@ -65,7 +65,7 @@ SimpleJekyllSearch({
 ![local search](https://res.cloudinary.com/mkyos/image/upload/v1657967848/vercel-jekyll/3_p6qsii.gif)
 
 
-## 在Netlify上使用Algolia
+## 2.在Netlify上使用Algolia
 
 假设你在Netlify上部署了一个网站，由于两者有密切的合作，你会更方面使用Algolia。
 
@@ -88,7 +88,7 @@ SimpleJekyllSearch({
 
 ![algolia netlify](https://res.cloudinary.com/mkyos/image/upload/v1657967845/vercel-jekyll/5_j9teoc.gif)
 
-## 在Vercel上的配置
+## 3.在Vercel上的配置
 
 假如你像上面那样使用Netlify创建了一个网站，且安装了Algolia的插件，则你将自动获得Algolia的一个免费Application，其配额为20K请求与20K记录。我建议你使用这个Application再创建一个index，以享用这个配额。它比不通过Netlify申请的多一倍。
 
@@ -98,7 +98,7 @@ SimpleJekyllSearch({
 
 从Algolia的官方文档开始：https://community.algolia.com/jekyll-algolia/getting-started.html
 
-### 第一，配置Gemfile
+### 3.1配置Gemfile
 
 假设你的Jekyll网站本来运行良好，你需要在你的Gemfile文件的末尾添加如下内容：
 
@@ -135,7 +135,7 @@ gem 'jekyll', '~> 3.6'
 ```
 我一开始只是把`gem 'jekyll-algolia'`添加到这行代码中，导致不起效。`gem 'jekyll-algolia'`必须在`group :jekyll_plugins do`的片段中。而且，为了这样做，你需要改动本来工作良好的其他代码。
 
-### 第二，配置_config.yml
+### 3.2配置_config.yml
 
 添加如下代码：
 
@@ -148,7 +148,7 @@ algolia:
   search_only_api_key: your_search_only_api_key
 ```
 
-### 第三，配置Algolia前端
+### 3.3配置Algolia前端
 
 在_includes文件夹中新建algolia.html文件，添加以下内容：
 
@@ -275,7 +275,7 @@ search.start();
 
 你可以自行修改某些样式。
 
-### 第四，引入algolia搜索部件
+### 3.4引入algolia搜索部件
 
 方法同简单本地搜索类似，在根目录新建search.md文件，添加如下内容：
 
@@ -289,7 +289,7 @@ search.start();
 
 当然，你可以将其放置在任何你先要展现搜索的模版文件中，比如在archive或tags中。不必单独成页。
 
-### 第五，在本地运行测试
+### 3.5在本地运行测试
 
 执行以下代码：
 
@@ -310,7 +310,7 @@ ALGOLIA_API_KEY='your_admin_api_key' bundle exec jekyll algolia
 ![vercel jekyll](/img/2022-07-16/1.png)
 
 
-### 第六，在Vercel上配置
+### 3.6在Vercel上配置
 
 假设你在本地成功运行Jekyll。现在请提交一次代码。Vercel如果成功建构，则继续在Vercel上的配置。在build command选项中填入如下命令：
 

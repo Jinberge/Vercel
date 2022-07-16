@@ -369,7 +369,7 @@ jekyll build & ALGOLIA_API_KEY='your_admin_api' bundle exec jekyll algolia
 
 要点概览：
 
-1. 在Netlify上使用Algolia，关键要在前端代码前添加选择器代码。
+1. 在Netlify上使用Algolia，关键要在前端代码前[添加选择器代码](/algolia-jekyll-blog.html#2在netlify上使用algolia)。
 2. 在Vercel上使用Algolia，执行以下关键步骤：
    
    - 本地运行测试jekyll，建构成功后将数据推送给Vercel；

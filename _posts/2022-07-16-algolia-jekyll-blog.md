@@ -13,12 +13,12 @@ excerpt: 在Vercel上设置Algolia的关键的步骤。
 
 第一，在根目录新建一个名为search.json的文件，内容如下：
 
-```json
+```yaml
 ---
 layout: null
 ---
-\[
-  \{% for post in site.posts %}
+[
+  {% for post in site.posts %}
     {
       "title"    : "{{ post.title | escape }}",
       "category" : "{{ post.category }}",
@@ -26,8 +26,8 @@ layout: null
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "date"     : "{{ post.date }}"
     } {% unless forloop.last %},{% endunless %}
-  \{% endfor %}
-\]
+  {% endfor %}
+]
 ```
 
 第二，在根目录新建一个名为search.md的文件，内容如下：
@@ -75,7 +75,7 @@ SimpleJekyllSearch({
 
 以下为演示效果：
 
-![local search](/img/2022-07-16/3.gif)
+![local search](https://res.cloudinary.com/mkyos/image/upload/v1657967848/vercel-jekyll/3_p6qsii.gif)
 
 
 ## 在Netlify上使用Algolia
@@ -99,7 +99,7 @@ SimpleJekyllSearch({
 
 其效果如下：
 
-![algolia netlify](/img/2022-07-16/5.gif)
+![algolia netlify](https://res.cloudinary.com/mkyos/image/upload/v1657967845/vercel-jekyll/5_j9teoc.gif)
 
 ## 在Vercel上的配置
 
@@ -341,7 +341,7 @@ jekyll build & ALGOLIA_API_KEY='your_admin_api' bundle exec jekyll algolia
 
 其效果如下：
 
-![vercl jekyll algolia](/img/2022-07-16/4.gif)
+![vercl jekyll algolia](https://res.cloudinary.com/mkyos/image/upload/v1657968534/vercel-jekyll/4_ynhp04.gif)
 
 Netlify上的Algolia显得跟现代，显示结果更直接了当；相比之下，Vercel所使用的jekyll-algolia插件显得很传统，显示结果与网站融为一体。前者有利于**访客**快捷查找，后者则特别有利于**读者**慢慢探索。
 

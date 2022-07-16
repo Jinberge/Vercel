@@ -13,11 +13,11 @@ excerpt: 在Vercel上设置Algolia的关键的步骤。
 
 第一，在根目录新建一个名为search.json的文件，内容如下：
 
-```html
+```json
 ---
 layout: null
 ---
-[
+\[
   {% for post in site.posts %}
     {
       "title"    : "{{ post.title | escape }}",
@@ -27,7 +27,7 @@ layout: null
       "date"     : "{{ post.date }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
-]
+\]
 ```
 
 第二，在根目录新建一个名为search.md的文件，内容如下：

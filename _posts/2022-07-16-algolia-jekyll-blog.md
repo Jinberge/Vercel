@@ -126,9 +126,9 @@ group :jekyll_plugins do
   gem 'jekyll-algolia'
 end
 ```
-请注意，如果你的Gemfile中本来就有`group :jekyll_plugins do`的片段，请将`gem 'jekyll-algolia'`添加进去即可。
+请注意，如果你的Gemfile中本来就有`group :jekyll_plugins do`的片段，请将`gem 'jekyll-algolia'`**添加**进去即可。
 
-假如你的你的Gemfile中本来没有`group :jekyll_plugins do`的片段，你需要在末尾完整条件以上代码。
+假如你的你的Gemfile中本来没有`group :jekyll_plugins do`的片段，你需要在**末尾**完整条件以上代码。
 
 比如我的Gemfile中的内容原本是：
 
@@ -148,7 +148,7 @@ gem "kramdown-parser-gfm"
 
 gem 'jekyll', '~> 3.6'
 ```
-我一开始只是把`gem 'jekyll-algolia'`添加到这行代码中，导致不起效。`gem 'jekyll-algolia'`必须在`group :jekyll_plugins do`的片段中。而且，为了这样做，你需要改动本来工作良好的其他代码。
+我一开始只是把`gem 'jekyll-algolia'`添加到这行代码中，导致不起效。`gem 'jekyll-algolia'`必须在`group :jekyll_plugins do`的片段中。而且，为了这样做，你**无需**改动本来工作良好的其他代码。
 
 ### 3.2配置_config.yml
 

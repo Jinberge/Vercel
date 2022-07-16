@@ -40,14 +40,30 @@ layout: none
 第二，在根目录新建search.md文件，内容如下：
 
 ```html
+---
+layout: default
+title: 搜索
+permalink: /search/
+---
 <!-- HTML elements for search -->
-<input type="text" id="search-input" placeholder="搜索标题、标签、时间或网址" style="width:350px;height:30px;font-size: 16px;"/>
+<input type="text" id="search-input" placeholder="搜索：标题、标签、时间、摘要" style="transition: box-shadow .4s ease,background .4s ease,-webkit-box-shadow .4s ease;
+    display: inline-block;
+    margin: 0 12px 12px 0;
+    background: #f5f5f5;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    transition: all 0.23s ease-in-out 0s;
+    height:35px;
+    color: #202020;
+    font-size: 1em;
+    width:350px;"/>
 
 <ul id="results-container"></ul>
 
 <!-- script pointing to jekyll-search.js -->
 
-<script src="https://unpkg.com/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js"></script>
+<script src="/js/simple-jekyll-search.js"></script>
 
 <script>
 SimpleJekyllSearch({

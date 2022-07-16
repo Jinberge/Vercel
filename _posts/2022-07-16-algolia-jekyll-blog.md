@@ -60,7 +60,7 @@ SimpleJekyllSearch({
 
 当然，您也可以将这个文件下载下来，复制在本地的js文件中（如没有则新建），并将`https://unpkg.com/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js`替换为`/js/simple-jekyll-search.min.js`，以实现完全的本地化。
 
-此时，访问`your_domainanme/search/`，就能看到搜索页面了。
+此时，访问`your_domain_name/search/`，就能看到搜索页面了。
 
 可以将这个页面添加到导航。在_includes中新建一个navigation.html文件，在其中添加内容：
 

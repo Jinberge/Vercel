@@ -3,6 +3,7 @@ layout: post
 title: 为Vercel上的Jekyll网站添加Algolia搜索功能
 tags: 博客
 excerpt: 在Vercel上设置Algolia的关键的步骤。
+render_with_liquid: false
 ---
 
 ## 1.从一个简单的本地搜索开始
@@ -14,7 +15,6 @@ excerpt: 在Vercel上设置Algolia的关键的步骤。
 第一，在根目录新建一个名为search.json的文件，内容如下：
 
 ```json
-{% raw %}
 ---
 layout: none
 ---
@@ -29,7 +29,6 @@ layout: none
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
-{% endraw %}
 ```
 
 请到上述Github上获取这个代码片断。

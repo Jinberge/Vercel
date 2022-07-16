@@ -373,7 +373,7 @@ jekyll build & ALGOLIA_API_KEY='your_admin_api' bundle exec jekyll algolia
 2. 在Vercel上使用Algolia，执行以下关键步骤：
    
    - 本地运行测试jekyll，建构成功后将数据推送给Vercel；
-   - 若Vercel建构成功，则配置[Build Command](/algolia-jekyll-blog.html##3.6在Vercel上配置)；
+   - 若Vercel建构成功，则配置[Build Command](/algolia-jekyll-blog.html#36在vercel上配置)；
    - 终止本地jekyll运行，改动任意文章，推送数据给Vercel；
    - 检查Vercel是否成功建构，验证网页是否反映该变动；
    - 若成功，则清空_site文件夹中的数据；

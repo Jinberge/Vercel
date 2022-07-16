@@ -30,7 +30,9 @@ layout: none
       "category" : "{{ post.category }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}"
+      "date"     : "{{ post.date }}",
+      "excerpt"  : "{{ post.excerpt }}"
+    
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

@@ -33,7 +33,7 @@ layout: none
 {% endraw %}
 ```
 
-第二，在根目录新建一个名为`search.md`的文件，内容如下：
+第二，在根目录新建search.md文件，内容如下：
 
 ```html
 <!-- HTML elements for search -->
@@ -96,7 +96,7 @@ SimpleJekyllSearch({
 ```html
 <div id="search"></div>
 ```
-并将全部代码复制到你想显示Algolia的搜索框的任何网页的模版之中。假设你想在你的archive模版中显示，则将其放置在最顶端。假设你想使之单独成页，请新建`search.md`，将这段代码粘贴进去，并按照之前的方法未知添加导航。
+并将全部代码复制到你想显示Algolia的搜索框的任何网页的模版之中。假设你想在你的archive模版中显示，则将其放置在最顶端。假设你想使之单独成页，请在根目录新建search.md文件，将这段代码粘贴进去，并按照之前的方法未知添加导航。
 
 注意，其中的apikey是你的 Search-Only API Key。
 

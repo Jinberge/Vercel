@@ -152,7 +152,7 @@ algolia:
 
 在_includes文件夹中新建algolia.html文件，添加以下内容：
 
-```html
+```yaml
 <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/moment.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">

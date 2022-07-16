@@ -58,8 +58,10 @@ permalink: /search/
     transition: all 0.23s ease-in-out 0s;
     height:35px;
     color: #202020;
-    font-size: 1em;
-    width:350px;"/>
+    font-size: 16px;
+    padding: 2px 5px;
+    width: 330px;
+    "/>
 
 <ul id="results-container"></ul>
 

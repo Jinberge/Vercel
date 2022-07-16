@@ -88,8 +88,7 @@ SimpleJekyllSearch({
 
 ![algolia netlify](https://res.cloudinary.com/mkyos/image/upload/v1657967845/vercel-jekyll/5_j9teoc.gif)
 
-## 3.在Vercel上的配置
-
+## 3.在Vercel上使用Algolia
 假如你像上面那样使用Netlify创建了一个网站，且安装了Algolia的插件，则你将自动获得Algolia的一个免费Application，其配额为20K请求与20K记录。我建议你使用这个Application再创建一个index，以享用这个配额。它比不通过Netlify申请的多一倍。
 
 你只需要在Netlifty上随便创建一个网站，并在安装完Algolia的插件后，不再管它。回到Vercel，假设你想为运行在Vercel上的Jekyll添加搜索，你需要调价Jekyll-algolia插件。这个插件与Netlify的不同，其显示效果也不同，看你喜欢哪个了。喜欢Netlify的，则可以满足于上一节的操作。
@@ -140,12 +139,14 @@ gem 'jekyll', '~> 3.6'
 添加如下代码：
 
 ```yaml
+{% raw %}
 # _config.yml
 
 algolia:
   application_id: your_application_id
   index_name:     jekyll # 你自己在algolia中创建的index
   search_only_api_key: your_search_only_api_key
+{% endraw %}
 ```
 
 ### 3.3配置Algolia前端
@@ -153,6 +154,7 @@ algolia:
 在_includes文件夹中新建algolia.html文件，添加以下内容：
 
 ```html
+{% raw %}
 <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/moment.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
@@ -271,6 +273,7 @@ search.start();
 }
 
 </style>
+{% endraw %}
 ```
 
 你可以自行修改某些样式。

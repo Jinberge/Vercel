@@ -279,7 +279,7 @@ search.start();
 
 方法同简单本地搜索类似，在根目录新建search.md文件，添加如下内容：
 
-```html
+```yaml
 <div id="search-searchbar"></div>
 
 <div class="post-list" id="search-hits">

@@ -6,6 +6,10 @@ excerpt: 在Vercel上设置Algolia的关键的步骤。
 render_with_liquid: false
 ---
 
+## 0.前言
+
+本文旨在帮助那些想要在Vercel上的Jekyll网站使用Algolia功能的人，一旦配置成功，将不再需要依赖本地Jekyll环境。如果你已经探索良久，那么你或许需要快速抵达关键要点。
+
 ## 1.从一个简单的本地搜索开始
 
 如果只是想要拥有一个简单的搜索功能，建议使用[simple-jekyll-search](https://github.com/christian-fei/Simple-Jekyll-Search)这个插件。这个插件可以本地运行，可以搜索标题、标签、时间、网站。Github上虽然也提供了全文搜索的选项，但我没有成功，也不推荐使用，因为可能会导致性能问题。
@@ -96,7 +100,7 @@ SimpleJekyllSearch({
 ```html
 <div id="search"></div>
 ```
-并将全部代码复制到你想显示Algolia的搜索框的任何网页的模版之中。假设你想在你的archive模版中显示，则将其放置在最顶端。假设你想使之单独成页，请在根目录新建search.md文件，将这段代码粘贴进去，并按照之前的方法未知添加导航。
+并将全部代码复制到你想显示Algolia的搜索框的任何网页的模版之中。假设你想在你的archive模版中显示，则将其放置在最顶端。假设你想使之单独成页，请在根目录新建search.md文件，将这段代码粘贴进去，并按照之前的方法为之添加导航。
 
 注意，其中的apikey是你的 Search-Only API Key。
 
@@ -105,7 +109,8 @@ SimpleJekyllSearch({
 ![algolia netlify](https://res.cloudinary.com/mkyos/image/upload/v1657967845/vercel-jekyll/5_j9teoc.gif)
 
 ## 3.在Vercel上使用Algolia
-假如你像上面那样使用Netlify创建了一个网站，且安装了Algolia的插件，则你将自动获得Algolia的一个免费Application，其配额为20K请求与20K记录。我建议你使用这个Application再创建一个index，以享用这个配额。它比不通过Netlify申请的多一倍。
+
+假如你像上面那样使用Netlify创建了一个网站，且安装了Algolia的插件，则你将自动获得Algolia的一个免费Application，其配额为20K请求与20K记录。我建议你使用这个Application**再**创建一个index，以使Vercel上的网站享用这个配额。它比不通过Netlify申请的多一倍。
 
 你只需要在Netlifty上随便创建一个网站，并在安装完Algolia的插件后，不再管它。回到Vercel，假设你想为运行在Vercel上的Jekyll添加搜索，你需要调价Jekyll-algolia插件。这个插件与Netlify的不同，其显示效果也不同，看你喜欢哪个了。喜欢Netlify的，则可以满足于上一节的操作。
 
@@ -308,7 +313,7 @@ search.start();
 {% endraw %}
 ```
 
-当然，你可以将其放置在任何你先要展现搜索的模版文件中，比如在archive或tags中。不必单独成页。
+当然，你可以将其放置在任何你先要展现搜索的模版文件中，比如在archive.html或tags.html中。不必单独成页。
 
 ### 3.5在本地运行测试
 
@@ -333,7 +338,7 @@ ALGOLIA_API_KEY='your_admin_api_key' bundle exec jekyll algolia
 
 ### 3.6在Vercel上配置
 
-假设你在本地成功运行Jekyll。现在请提交一次代码。Vercel如果成功建构，则继续在Vercel上的配置。在build command选项中填入如下命令：
+假设你在本地成功运行Jekyll。现在请提交一次代码，这将把你在本地构建的网页传送到Vercel。Vercel如果成功建构，则继续在Vercel上的配置。在build command选项中填入如下命令：
 
 ```bash
 jekyll build & ALGOLIA_API_KEY='your_admin_api' bundle exec jekyll algolia
@@ -341,11 +346,19 @@ jekyll build & ALGOLIA_API_KEY='your_admin_api' bundle exec jekyll algolia
 
 ![Vercel jekyll](/img/2022-07-16/2.png)
 
-这段代码与Algolia官方文档建议的不同之处在于增加了`jekyll build &`；若不增加，每次提交代码，Vercel每次只向Algolia推送记录，而不建构新的代码，导致网站的输出网页会一直是你上一次本地运行后提交的。
+这段代码与Algolia官方文档建议的不同，增加了`jekyll build &`；若不增加，每次提交代码，Vercel每次只向Algolia推送记录，而不建构新的代码，导致网站的输出网页会一直是你上一次本地运行后提交的。
 
-**这是关键的一步**。你当然也可以一直使用本地运行，不再使用Vercel的建构功能，但如果能与过去一样方便，为什么不做呢？
+**这是关键的一步**。你当然也可以一直使用本地运行，不再使用Vercel的建构功能。
 
-至此，你应该成功在自己部署于Vercel上的Jekyll网站上用上了Algolia。
+如何判断配置好Vercel的build命令，正常运行呢？
+
+- 改动你的某个post，推送数据，等待Vercel建构结果；
+- 查看网页是否发生了该变动；
+- 如果有，则运行良好，**此时可以删除_site文件夹内的所有数据**（不包括该文件夹）；
+- 如果没有，则需要继续排查。
+- 如果始终失败，你可以选择每次本地运行，然后推送给Vercel的方法。
+
+至此，如果顺利，你应该成功在自己部署于Vercel上的Jekyll网站上用上了Algolia。
 
 其效果如下：
 
@@ -353,6 +366,19 @@ jekyll build & ALGOLIA_API_KEY='your_admin_api' bundle exec jekyll algolia
 
 
 ## 4.结语
+
+要点概览：
+
+1. 在Netlify上使用Algolia，关键要在前端代码前添加选择器。
+2. 在Vercel上使用Algolia，执行以下关键步骤：
+   
+   - 本地运行测试jekyll，建构成功后将数据推送给Vercel；
+   - 若Vercel建构成功，则配置Build Command；
+   - 终止本地jekyll运行，改动任意文章，推送数据给Vercel；
+   - 检查Vercel是否成功建构，验证网页是否反映该变动；
+   - 若成功，则清空_site文件夹中的数据。
+   - 像过去一样正常使用Vercel。
+   - 若始终不能反映该变动，则依赖本地运行jekyll，或者选择Netlify。
 
 Netlify上的Algolia显得更现代，显示结果更直接了当；相比之下，Vercel所使用的jekyll-algolia插件显得很传统，显示结果与网站融为一体。前者有利于**访客**快捷查找，后者则特别有利于**读者**慢慢探索。
 

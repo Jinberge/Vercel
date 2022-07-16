@@ -8,7 +8,7 @@ render_with_liquid: false
 
 ## 0.前言
 
-本文旨在帮助那些想要在Vercel上的Jekyll网站使用Algolia功能的人，一旦配置成功，将不再需要依赖本地Jekyll环境。如果你已经探索良久，那么你或许需要[快速抵达关键要点](/_posts/2022-07-16-algolia-jekyll-blog.md/## 4.结语)。
+本文旨在帮助那些想要在Vercel上的Jekyll网站使用Algolia功能的人，一旦配置成功，将不再需要依赖本地Jekyll环境。如果你已经探索良久，那么你或许需要[快速抵达关键要点](/algolia-jekyll-blog.html#4结语)。
 
 ## 1.从一个简单的本地搜索开始
 

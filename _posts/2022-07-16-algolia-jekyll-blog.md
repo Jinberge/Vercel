@@ -58,7 +58,7 @@ SimpleJekyllSearch({
 </script>
 ```
 
-当然，您也可以将这个文件下载下来，复制在本地的js中（如没有则新建），并将`https://unpkg.com/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js`替换为`/js/simple-jekyll-search.min.js`。
+当然，您也可以将这个文件下载下来，复制在本地的js文件中（如没有则新建），并将`https://unpkg.com/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js`替换为`/js/simple-jekyll-search.min.js`，以实现完全的本地化。
 
 此时，访问`your_domainanme/search/`，就能看到搜索页面了。
 

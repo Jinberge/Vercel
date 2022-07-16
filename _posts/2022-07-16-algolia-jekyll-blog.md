@@ -48,7 +48,7 @@ title: 搜索
 permalink: /search/
 ---
 <!-- HTML elements for search -->
-<input type="text" id="search-input" placeholder="搜索：标题、标签、时间、摘要" style="transition: box-shadow .4s ease,background .4s ease,-webkit-box-shadow .4s ease;
+<input type="text" id="search-input" placeholder="搜索：标题、标签、时间、摘要" style="
     display: inline-block;
     margin: 0 12px 12px 0;
     background: #f5f5f5;

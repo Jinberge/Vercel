@@ -67,7 +67,7 @@ permalink: /search/
 
 <!-- script pointing to jekyll-search.js -->
 
-<script src="/js/simple-jekyll-search.js"></script>
+<script src="/js/simple-jekyll-search.min.js"></script>
 
 <script>
 SimpleJekyllSearch({

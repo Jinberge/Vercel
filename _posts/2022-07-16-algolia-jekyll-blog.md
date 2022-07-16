@@ -10,7 +10,7 @@ render_with_liquid: false
 
 本文旨在帮助那些想要在Vercel上的Jekyll网站使用Algolia功能的人，一旦配置成功，将不再需要依赖本地Jekyll环境。如果你已经探索良久，那么你或许需要[快速抵达关键要点](/algolia-jekyll-blog.html#4结语)。
 
-## 1.从一个简单的本地搜索开始
+## 1.为jekyll添加简单的本地搜索功能
 
 如果只是想要拥有一个简单的搜索功能，建议使用[simple-jekyll-search](https://github.com/christian-fei/Simple-Jekyll-Search)这个插件。这个插件可以本地运行，可以搜索标题、标签、时间、网站。Github上虽然也提供了全文搜索的选项，但我没有成功，也不推荐使用，因为可能会导致性能问题。
 
@@ -355,7 +355,7 @@ jekyll build & ALGOLIA_API_KEY='your_admin_api' bundle exec jekyll algolia
 - 改动你的某个post，推送数据，等待Vercel建构结果；
 - 查看网页是否发生了该变动；
 - 如果有，则运行良好，**此时可以删除_site文件夹内的所有数据**（不包括该文件夹）；
-- 如果没有，则需要继续排查。
+- 如果没有，则需要继续排查；
 - 如果始终失败，你可以选择每次本地运行，然后推送给Vercel的方法。
 
 至此，如果顺利，你应该成功在自己部署于Vercel上的Jekyll网站上用上了Algolia。
@@ -376,8 +376,8 @@ jekyll build & ALGOLIA_API_KEY='your_admin_api' bundle exec jekyll algolia
    - 若Vercel建构成功，则配置Build Command；
    - 终止本地jekyll运行，改动任意文章，推送数据给Vercel；
    - 检查Vercel是否成功建构，验证网页是否反映该变动；
-   - 若成功，则清空_site文件夹中的数据。
-   - 像过去一样正常使用Vercel。
+   - 若成功，则清空_site文件夹中的数据；
+   - 像过去一样正常使用Vercel；
    - 若始终不能反映该变动，则依赖本地运行jekyll，或者选择Netlify。
 
 Netlify上的Algolia显得更现代，显示结果更直接了当；相比之下，Vercel所使用的jekyll-algolia插件显得很传统，显示结果与网站融为一体。前者有利于**访客**快捷查找，后者则特别有利于**读者**慢慢探索。

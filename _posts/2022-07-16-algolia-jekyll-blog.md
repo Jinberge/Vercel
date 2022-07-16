@@ -75,7 +75,7 @@ SimpleJekyllSearch({
 
 以下为演示效果：
 
-![gif]()
+![local search](/img/2022-07-16/3.gif)
 
 
 ## 在Netlify上使用Algolia
@@ -111,7 +111,9 @@ SimpleJekyllSearch({
 
 从Algolia的官方文档开始：https://community.algolia.com/jekyll-algolia/getting-started.html
 
-第一，配置Gemfile。假设你的Jekyll网站本来运行良好，你需要在你的Gemfile文件的末尾添加如下内容：
+### 第一，配置Gemfile
+
+假设你的Jekyll网站本来运行良好，你需要在你的Gemfile文件的末尾添加如下内容：
 
 ```ruby
 source 'https://rubygems.org'
@@ -146,7 +148,9 @@ gem 'jekyll', '~> 3.6'
 ```
 我一开始只是把`gem 'jekyll-algolia'`添加到这行代码中，导致不起效。`gem 'jekyll-algolia'`必须在`group :jekyll_plugins do`的片段中。而且，为了这样做，你需要改动本来工作良好的其他代码。
 
-第二，配置_config.yml。添加如下代码：
+### 第二，配置_config.yml
+
+添加如下代码：
 
 ```yaml
 # _config.yml
@@ -157,7 +161,9 @@ algolia:
   search_only_api_key: your_search_only_api_key
 ```
 
-第三，配置Algolia前端。在_includes文件夹中新建algolia.html文件，添加以下内容：
+### 第三，配置Algolia前端
+
+在_includes文件夹中新建algolia.html文件，添加以下内容：
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
@@ -282,7 +288,9 @@ search.start();
 
 你可以自行修改某些样式。
 
-第四，引入algolia搜索部件。方法同简单本地搜索类似，在根目录新建search.md文件，添加如下内容：
+### 第四，引入algolia搜索部件
+
+方法同简单本地搜索类似，在根目录新建search.md文件，添加如下内容：
 
 ```html
 <div id="search-searchbar"></div>
@@ -294,7 +302,9 @@ search.start();
 
 当然，你可以将其放置在任何你先要展现搜索的模版文件中，比如在archive或tags中。不必单独成页。
 
-第五，在本地运行测试。执行以下代码：
+### 第五，在本地运行测试
+
+执行以下代码：
 
 ```bash
 ALGOLIA_API_KEY='your_admin_api_key' bundle exec jekyll algolia
@@ -313,7 +323,9 @@ ALGOLIA_API_KEY='your_admin_api_key' bundle exec jekyll algolia
 ![vercel jekyll](/img/2022-07-16/1.png)
 
 
-第四，在Vercel上配置。假设你在本地成功运行Jekyll。现在请提交一次代码。Vercel如果成功建构，则继续在Vercel上的配置。在build command选项中填入如下命令：
+### 第六，在Vercel上配置
+
+假设你在本地成功运行Jekyll。现在请提交一次代码。Vercel如果成功建构，则继续在Vercel上的配置。在build command选项中填入如下命令：
 
 ```bash
 jekyll build & ALGOLIA_API_KEY='your_admin_api' bundle exec jekyll algolia

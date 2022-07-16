@@ -351,10 +351,13 @@ jekyll build & ALGOLIA_API_KEY='your_admin_api' bundle exec jekyll algolia
 
 ![vercl jekyll algolia](https://res.cloudinary.com/mkyos/image/upload/v1657968534/vercel-jekyll/4_ynhp04.gif)
 
-Netlify上的Algolia显得跟现代，显示结果更直接了当；相比之下，Vercel所使用的jekyll-algolia插件显得很传统，显示结果与网站融为一体。前者有利于**访客**快捷查找，后者则特别有利于**读者**慢慢探索。
+
+## 4.结语
+
+Netlify上的Algolia显得更现代，显示结果更直接了当；相比之下，Vercel所使用的jekyll-algolia插件显得很传统，显示结果与网站融为一体。前者有利于**访客**快捷查找，后者则特别有利于**读者**慢慢探索。
 
 此外，Netlify上的Algolia只建立很少的链接的索引，而Vercel所使用的jekyll-algolia插件为每一段都建立索引；在我的网站上，前者的索引数量不到100，后者则达2000以上；一个重要的区别就是，前者点击搜索结果只跳到文章，而后者则跳到具体的段落。
 
-## 4.结语
+如果你不在乎Netlify稍微慢的网速，可以直接使用Netlify的Algolia，这会方便很多。
 
 如果你遇到了问题，可以在下方给我留言。

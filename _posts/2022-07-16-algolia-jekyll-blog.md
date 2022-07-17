@@ -12,7 +12,7 @@ render_with_liquid: false
 
 ## 1.为jekyll添加简单的本地搜索功能
 
-如果只是想要拥有一个简单的搜索功能，建议使用[simple-jekyll-search](https://github.com/christian-fei/Simple-Jekyll-Search)这个插件。这个插件可以本地运行，可以搜索标题、标签、时间、网站。Github上虽然也提供了全文搜索的选项，但我没有成功，也不推荐使用，因为可能会导致性能问题。
+如果只是想要拥有一个简单的搜索功能，建议使用[simple-jekyll-search](https://github.com/christian-fei/Simple-Jekyll-Search)这个插件。这个插件可以本地运行，可以搜索标题、标签、时间、网址。Github上虽然也提供了全文搜索的选项，但我没有成功，也不推荐使用，因为可能会导致性能问题。
 
 简单的配置如下：
 
@@ -109,7 +109,7 @@ SimpleJekyllSearch({
 
 假设你在Netlify上部署了一个网站，由于两者有密切的合作，你会更方面使用Algolia。
 
-参考这个链接：https://www.algolia.com/doc/tools/crawler/netlify-plugin/quick-start/
+先按照[官方文档](https://www.algolia.com/doc/tools/crawler/netlify-plugin/quick-start/)操作。
 
 当你到达[这一步](https://www.algolia.com/doc/tools/crawler/netlify-plugin/quick-start/#:~:text=The%20plugin%20is%20now%20installed%20and%20ready%20to%20index%20your%20site.)的时候，如下图所示，请注意，Algolia所给的代码片段对新手很不友好，因为缺少一个HTML选择器，以至于只把这段代码粘贴到我们的模版文件中是不会显示的。
 
@@ -136,7 +136,7 @@ SimpleJekyllSearch({
 
 因为在Netlify比Vercel的访问速度稍微慢些，特别是内地，所以我选择了Vercel。
 
-从Algolia的官方文档开始：https://community.algolia.com/jekyll-algolia/getting-started.html
+先从Algolia的[官方文档](https://community.algolia.com/jekyll-algolia/getting-started.html)开始。
 
 ### 3.1配置Gemfile
 

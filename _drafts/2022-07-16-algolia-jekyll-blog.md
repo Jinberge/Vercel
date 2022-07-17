@@ -9,7 +9,7 @@ excerpt: 在Vercel上设置Algolia的关键的步骤。
 
 如果只是想要拥有一个简单的搜索功能，建议使用[simple-jekyll-search](https://github.com/christian-fei/Simple-Jekyll-Search)这个插件。这个插件可以本地运行，可以搜索标题、标签、时间、网址。Github上虽然也提供了全文搜索的选项，但我没有成功，也不推荐使用，因为可能会导致性能问题。
 
-简单的配置如下。
+简单的配置如下：
 
 第一，在根目录新建一个名为search.json的文件，内容如下：
 

@@ -14,7 +14,7 @@
 
 #mc_embed_signup label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
 #mc_embed_signup input.email {
-    font-family:"Helvetica Neue",Arial,Helvetica,Verdana,sans-serif; 
+    font-family:Arial,微软雅黑,sans-serif; 
     transition: box-shadow .4s ease,background .4s ease,-webkit-box-shadow .4s ease;
     display: inline-block;
     margin: 0 12px 12px 0;

@@ -34,7 +34,7 @@ kmt007#outlook.com
 <link href="/assets/css/mailchimp.css" rel="stylesheet" type="text/css">
 
 <style type="text/css">
- #mc_embed_signup{background:#fff; clear:left; font:16px Helvetica,Arial,sans-serif; }
+ #mc_embed_signup{background:#fff; clear:left; font:16px Arial,微软雅黑,sans-serif;  }
 #mc_embed_signup form { background: #e7e7e7 url(/img/bg/body-bg.png) 0 0 repeat;}
 </style>
 <div id="mc_embed_signup">

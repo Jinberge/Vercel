@@ -35,7 +35,7 @@ kmt007#outlook.com
 
 <style type="text/css">
  #mc_embed_signup{background:#fff; clear:left; font:16px Helvetica,Arial,sans-serif; }
-#mc_embed_signup form { background: #e7e7e7 url(/assets/images/body-bg.png) 0 0 repeat;}
+#mc_embed_signup form { background: #e7e7e7 url(/img/bg/body-bg.png) 0 0 repeat;}
 </style>
 <div id="mc_embed_signup">
 <form action="https://uselus.us6.list-manage.com/subscribe/post?u=f54222e57b120370056706959&amp;id=7f2a5ff8cd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>

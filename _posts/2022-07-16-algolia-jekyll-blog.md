@@ -365,7 +365,7 @@ ALGOLIA_API_KEY='your_admin_api_key' bundle exec jekyll algolia
 假设你在本地成功运行Jekyll。现在请提交一次代码，这将把你在本地构建的网页传送到Vercel。Vercel如果成功建构，则继续在Vercel上的配置。在build command选项中填入如下命令：
 
 ```bash
-jekyll build & ALGOLIA_API_KEY='your_admin_api' bundle exec jekyll algolia
+jekyll build & ALGOLIA_API_KEY='your_admin_api' jekyll algolia
 ```
 
 ![Vercel jekyll](/img/2022-07-16/2.png)

@@ -1,7 +1,8 @@
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/moment.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch-theme-algolia.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
+
 <script>
 const search = instantsearch({
   appId: '{{ site.algolia.application_id }}',
@@ -38,7 +39,7 @@ const hitTemplate = function(hit) {
   return `
     <div class="post-item">
       <span class="post-meta">${date}</span>
-      <h2><a class="post-link" href="${url}">${title}</a></h2>
+      <h3><a class="post-link" href="${url}">${title}</a></h3>
       {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
       <div class="post-snippet">${content}</div>
     </div>
@@ -102,7 +103,7 @@ search.start();
   display: none;
 }
 .ais-search-box--input{
-  transition: box-shadow .4s ease,background .4s ease,-webkit-box-shadow .4s ease;
+   transition: box-shadow .4s ease,background .4s ease,-webkit-box-shadow .4s ease;
     display: inline-block;
     margin: 0 12px 12px 0;
     background: #f5f5f5;
@@ -113,5 +114,34 @@ search.start();
     line-height: 1.7;
     color: #202020;
 }
+
+@media (prefers-color-scheme: dark) {
+  .ais-search-box--input {
+    transition: box-shadow .4s ease,background .4s ease,-webkit-box-shadow .4s ease;
+    display: inline-block;
+    margin: 0 12px 12px 0;
+    background: #303030;
+    border: 1px solid #888;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px #303030;
+    transition: all 0.23s ease-in-out 0s;
+    line-height: 1.7;
+    color: #ddd;
+}
+
+.post-breadcrumb {
+    font-weight: bold;
+    font-size: 18px;
+    color: #bbb;
+}
+
+.post-snippet .ais-Highlight {
+    font-style: normal;
+    background: #d4bf75;
+    color: #151515;
+}
+
+}
+
 
 </style>

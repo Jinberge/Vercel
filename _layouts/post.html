@@ -32,32 +32,15 @@ layout: default
           "data-mapping": "title",
           "data-reactions-enabled": "1",
           "data-emit-metadata": "0",
-          "data-theme": giscusTheme,
+          "data-theme": "giscusTheme",
           "data-lang": "zh-CN",
           "crossorigin": "anonymous",
           "async": ""
        };
     
-       function changeGiscusTheme () {
-  let modeToggle = new ModeToggle();
-  const theme = modeToggle.mode === 'dark' ?  'dark' : 'light'
-  function sendMessage(message) {
-    const iframe = document.querySelector('iframe.giscus-frame');
-    if (!iframe) return;
-    iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-  }
-  sendMessage({
-    setConfig: {
-      theme: theme
-    }
-  });
-}
-
-const modeToggle = document.getElementsByClassName("mode-toggle")[0];
-
-if (typeof modeToggle !== "undefined") {
-  modeToggle.addEventListener('click', changeGiscusTheme);
-}
+       let giscusScript = document.createElement("script");
+           Object.entries(giscusAttributes).forEach(([key, value]) =>         giscusScript.setAttribute(key, value));
+  document.body.appendChild(giscusScript);
   </script>
   </section>
 {% endif %}

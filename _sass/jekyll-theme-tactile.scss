@@ -116,7 +116,7 @@ a.navi{
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     transition: all 0.23s ease-in-out 0s;
 }
-a.navi:hover {
+a.navi:focus {
   color: #b71c1c;
   background:#ddd;
   border: 1px solid #f5f5f5;
@@ -164,8 +164,10 @@ a.paginator{
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
-a.paginator:hover {
+a.paginator:focus {
   color: #b71c1c;
+  background:#ddd;
+  border: 1px solid #f5f5f5;
 }
 
 code, pre {

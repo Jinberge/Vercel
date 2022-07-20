@@ -21,19 +21,24 @@ layout: default
 
 
 <section class="giscus">
-  <script src="https://giscus.app/client.js"
-          data-repo="Pathsis/comments"
-          data-repo-id="R_kgDOGazMEw"
-          data-category="Announcements"
-          data-category-id="DIC_kwDOGazME84B_-mW"
-          data-mapping="title"
-          data-reactions-enabled="1"
-          data-emit-metadata="0"
-          data-theme="light"
-          data-lang="zh-CN"
-          crossorigin="anonymous"
-          async>
-    function changeGiscusTheme () {
+  <script>
+       let giscusTheme = localStorage.getItem("giscus-theme");
+       let giscusAttributes = {
+          "src": "https://giscus.app/client.js",
+          "data-repo": "Pathsis/comments",
+          "data-repo-id": "R_kgDOGazMEw",
+          "data-category": "Announcements",
+          "data-category-id": "DIC_kwDOGazME84B_-mW",
+          "data-mapping": "title",
+          "data-reactions-enabled": "1",
+          "data-emit-metadata": "0",
+          "data-theme": giscusTheme,
+          "data-lang": "zh-CN",
+          "crossorigin": "anonymous",
+          "async": ""
+       };
+    
+       function changeGiscusTheme () {
   let modeToggle = new ModeToggle();
   const theme = modeToggle.mode === 'dark' ?  'dark' : 'light'
   function sendMessage(message) {

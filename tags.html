@@ -19,7 +19,7 @@ permalink: /tags/
 <div id="archives">
   {%- for tag in site.tags -%}
   {%- capture name -%}{{ tag | first }}{%- endcapture -%}
-  <h3 id="{{ name }}">{{ name | upcase }}</h3>
+  <h2 id="{{ name }}">{{ name | upcase }}</h2>
   {%- for post in site.tags[name] -%}
     <article class="post-item" id="results-container">
       

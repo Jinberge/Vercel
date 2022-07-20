@@ -35,7 +35,6 @@ kmt007#outlook.com
 <div id="mc_embed_signup">
 <form action="https://uselus.us6.list-manage.com/subscribe/post?u=f54222e57b120370056706959&amp;id=7f2a5ff8cd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-
  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="required">
  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f54222e57b120370056706959_7f2a5ff8cd" tabindex="-1" value=""></div>

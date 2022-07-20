@@ -1,5 +1,5 @@
 /* MailChimp Form Embed Code - Slim - 12/15/2015 v10.7 */
-#mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
+#mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%; background: #e7e7e7 url(/img/bg/body-bg.png) 0 0 repeat;}
 #mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
 #mc_embed_signup input {border:1px solid #f5f5f5; -webkit-appearance:none;}
 #mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
@@ -11,7 +11,7 @@
 #mc_embed_signup .small-meta {font-size: 11px;}
 #mc_embed_signup .nowrap {white-space:nowrap;}     
 #mc_embed_signup .clear {clear:none; display:inline;}
-
+#mc_embed_signup{background:#fff; clear:left; font:16px Helvetica,Arial,sans-serif; }
 #mc_embed_signup label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
 #mc_embed_signup input.email {
     font-size: 1.1em;
@@ -27,7 +27,8 @@
     border: 1px solid #ddd;
     border-radius: 25px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);}
-#mc_embed_signup input.button {display: inline-block;
+#mc_embed_signup input.button {
+    display: inline-block;
     margin: 0 12px 12px 0; 
     background: #f5f5f5;
     padding: 4px 8px;
@@ -46,5 +47,47 @@
 #mc_embed_signup #mce-success-response {color:#529214; display:none;}
 #mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
 
-
+@media (prefers-color-scheme: dark) {
+    #mc_embed_signup form {
+        background: #151515 0 0 repeat;
+      }
+     
+    #mc_embed_signup input.email{
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    width: 58%;
+    color: #aaa;
+    line-height: 1.7;
+    display: inline-block;
+    margin: 0 12px 12px 0;
+    background: #222;
+    padding: 0px 4px;
+    border: 1px solid #666;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px #303030; 
+    }
+    #mc_embed_signup input.button{
+         font-size: 1.1em;
+         display: inline-block;
+         padding: 0 1em;
+         margin: 0 4% 10px 0;
+         min-height: 35px;
+         width: 58%;
+         min-width: 130px;
+         color: #aaa;
+         line-height: 1.7;
+         display: inline-block;
+         background: #222;
+         border: 1px solid #666;
+         border-radius: 25px;
+         box-shadow: 0 10px 30px #303030;
+         text-shadow: none;
+    }
+    #mc_embed_signup input.button:hover:{
+        color: #d4bf75;
+        background: #202020;
+        border: 1px solid #888;
+    }
+    }
 

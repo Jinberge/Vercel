@@ -32,55 +32,6 @@ kmt007#outlook.com
 
 <!-- Begin Mailchimp Signup Form -->
 <link href="/assets/css/mailchimp.css" rel="stylesheet" type="text/css">
-
-<style type="text/css">
- #mc_embed_signup{background:#fff; clear:left; font:16px Helvetica,Arial,sans-serif; }
-#mc_embed_signup form { background: #e7e7e7 url(/img/bg/body-bg.png) 0 0 repeat;}
-@media (prefers-color-scheme: dark) {
-    #mc_embed_signup form {
-        background: #151515 0 0 repeat;
-      }
-     
-    #mc_embed_signup input.email{
-padding: 0.5rem 0.75rem;
-    font-size: 1rem;
-    line-height: 1.7;
-    width: 58%;
-    color: #aaa;
-    line-height: 1.7;
-    display: inline-block;
-    margin: 0 12px 12px 0;
-    background: #222;
-    padding: 0px 4px;
-    border: 1px solid #666;
-    border-radius: 25px;
-    box-shadow: 0 10px 30px #303030; 
-
-    }
-
-    #mc_embed_signup input.button{
-         font-size: 1.1em;
-         display: inline-block;
-         padding: 0 1em;
-         margin: 0 4% 10px 0;
-         min-height: 35px;
-         width: 58%;
-         min-width: 130px;
-         color: #aaa;
-         line-height: 1.7;
-         display: inline-block;
-         background: #222;
-         border: 1px solid #666;
-         border-radius: 25px;
-         box-shadow: 0 10px 30px #303030;
-         text-shadow: none;
-}
-    }
-
-
-
-}
-</style>
 <div id="mc_embed_signup">
 <form action="https://uselus.us6.list-manage.com/subscribe/post?u=f54222e57b120370056706959&amp;id=7f2a5ff8cd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">

@@ -1,15 +1,20 @@
 function changeGiscusTheme () {
-    const theme = localStorage.getItem("pref-theme") === "dark" ?  'light' : 'dark_dimmed'
-
+    let modeToggle = new ModeToggle();
+    const theme = modeToggle.mode === 'dark' ?  'dark' : 'light'
     function sendMessage(message) {
-        const iframe = document.querySelector('iframe.giscus-frame');
-        if (!iframe) return;
-        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      const iframe = document.querySelector('iframe.giscus-frame');
+      if (!iframe) return;
+      iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
     }
-
     sendMessage({
-        setConfig: {
-            theme: theme
-        }
+      setConfig: {
+        theme: theme
+      }
     });
-}
+  }
+  
+  const modeToggle = document.getElementsByClassName("mode-toggle")[0];
+  
+  if (typeof modeToggle !== "undefined") {
+    modeToggle.addEventListener('click', changeGiscusTheme);
+  }

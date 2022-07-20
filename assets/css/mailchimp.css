@@ -6,8 +6,7 @@
 #mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
 #mc_embed_signup input:focus {border-color:#333;}
 #mc_embed_signup .button {clear:both; border-radius:4px; cursor: pointer; display: inline-block; width: auto; transition: all 0.23s ease-in-out 0s;}
-#mc_embed_signup .button:hover {background:#ddd;
-    border: 1px solid #f5f5f5;}
+#mc_embed_signup .button:hover {background:#ddd;border: 1px solid #f5f5f5;}
 #mc_embed_signup .small-meta {font-size: 11px;}
 #mc_embed_signup .nowrap {white-space:nowrap;}     
 #mc_embed_signup .clear {clear:none; display:inline;}
@@ -69,9 +68,20 @@
     box-shadow: 0 10px 30px #303030; 
     }
     #mc_embed_signup input.button{
-         
+        display: inline-block;
+        margin: 0 12px 12px 0;
+        background: #222;
+        padding: 4px 8px;
+        border: 1px solid #666;
+        border-radius: 25px;
+        box-shadow: 0 10px 30px #303030;
+        transition: all 0.23s ease-in-out 0s;
+        line-height: 1.7;
+        color: #aaa;
+        text-shadow: none;
+        min-width: 130px;
     }
-    #mc_embed_signup input.button:hover:{
+    #mc_embed_signup .button:hover{
         color: #d4bf75;
         background: #202020;
         border: 1px solid #888;

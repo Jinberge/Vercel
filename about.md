@@ -59,17 +59,21 @@ padding: 0.5rem 0.75rem;
     }
 
     #mc_embed_signup input.button{
-
-        color: #aaa;
-    line-height: 1.7;
-    display: inline-block;
-    margin: 0 12px 12px 0;
-    background: #222;
-    padding: 4px 8px;
-    border: 1px solid #666;
-    border-radius: 25px;
-    box-shadow: 0 10px 30px #303030;
-    text-shadow: none;
+         font-size: 1.1em;
+         display: inline-block;
+         padding: 0 1em;
+         margin: 0 4% 10px 0;
+         min-height: 35px;
+         width: 58%;
+         min-width: 130px;
+         color: #aaa;
+         line-height: 1.7;
+         display: inline-block;
+         background: #222;
+         border: 1px solid #666;
+         border-radius: 25px;
+         box-shadow: 0 10px 30px #303030;
+         text-shadow: none;
 }
     }
 

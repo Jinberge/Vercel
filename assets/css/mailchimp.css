@@ -13,7 +13,7 @@
 #mc_embed_signup .clear {clear:none; display:inline;}
 
 #mc_embed_signup label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
-#mc_embed_signup input.email {font-family: "Helvetica Neue",Arial,Helvetica,Verdana,sans-serif;
+#mc_embed_signup input.email {
     font-size: 1.1em;
     display: inline-block;
     padding: 0 1em;

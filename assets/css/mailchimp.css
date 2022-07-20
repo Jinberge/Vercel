@@ -6,7 +6,7 @@
 #mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
 #mc_embed_signup input:focus {border-color:#333;}
 #mc_embed_signup .button {clear:both; border-radius:4px; cursor: pointer; display: inline-block; width: auto; transition: all 0.23s ease-in-out 0s;}
-#mc_embed_signup .button:hover {background:#ddd;border: 1px solid #f5f5f5;}
+#mc_embed_signup .button:hover { color: #b71c1c;background:#ddd;border: 1px solid #f5f5f5;}
 #mc_embed_signup .small-meta {font-size: 11px;}
 #mc_embed_signup .nowrap {white-space:nowrap;}     
 #mc_embed_signup .clear {clear:none; display:inline;}
@@ -41,6 +41,7 @@
     min-width: 130px;
     font-size: 1.1em;
 }
+}
 
 #mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
 #mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
@@ -55,27 +56,27 @@
      
     #mc_embed_signup input.email{
         font-size: 1.1em;
-        display: inline-block;
-        padding: 0.1em 1em;
-        margin: 0 4% 10px 0;
-        min-height: 35px;
-        width: 58%;
-        min-width: 130px;
-        color: #202020;
-        line-height: 1.7;
-        background: #f5f5f5;
-        border: 1px solid #ddd;
-        border-radius: 25px;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);}
+    display: inline-block;
+    padding: 0.1em 1em;
+    margin: 0 4% 10px 0;
+    min-height: 35px;
+    width: 58%;
+    min-width: 130px;
+    color: #202020;
+    line-height: 1.7;
+    background: #202020;
+    border: 1px solid #666;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px #303030;
     }
     #mc_embed_signup input.button{
         display: inline-block;
         margin: 0 4% 10px 0;
         background: #222;
         padding: 4px 8px;
-        border: 1px solid #aaa;
+        border: 1px solid #666;
         border-radius: 25px;
-        box-shadow: 0 10px 30px #666;
+        box-shadow: 0 10px 30px #303030;
         transition: all 0.23s ease-in-out 0s;
         line-height: 1.7;
         color: #aaa;

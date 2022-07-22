@@ -13,7 +13,7 @@
 #mc_embed_signup{background:#fff; clear:left; font:16px Helvetica,Arial,sans-serif; }
 #mc_embed_signup label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
 #mc_embed_signup input.email {
-    font-size: 1.1em;
+    font-size: 1.05em;
     display: inline-block;
     padding: 0.1em 1em;
     margin: 0 4% 10px 0;
@@ -39,7 +39,7 @@
     color: #303030;
     text-shadow: none;
     min-width: 130px;
-    font-size: 1.1em;
+    font-size: 1.05em;
     text-shadow: 0 1px 0 rgb(255 255 255 / 80%);
 }
 }
@@ -56,7 +56,7 @@
       }
      
     #mc_embed_signup input.email{
-        font-size: 1.1em;
+        font-size: 1.05em;
     display: inline-block;
     padding: 0.1em 1em;
     margin: 0 4% 10px 0;
@@ -83,7 +83,7 @@
         color: #aaa;
         text-shadow: none;
         min-width: 130px;
-        font-size: 1.1em;
+        font-size: 1.05em;
     }
     #mc_embed_signup .button:hover{
         color: #d4bf75;

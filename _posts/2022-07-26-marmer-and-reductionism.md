@@ -7,7 +7,7 @@ excerpt: 马默还原论的混乱和错误的。无论是自己的理假设，�
 
 ## 前言
 
-马默在“[What Is Law and What Counts as Law? The Separation Thesis in Context](https://www.douban.com/note/835051937/)”（in *The Cambridge Companion to Legal Positivism*, chap. 20)这篇文章重复了他混乱和错误的还原论。无论是自己的理假设，还是对对手理论的批评，都是如此。他没有弄清楚还原这种活动的本性，也没有弄清楚还原的对象是什么，还不清楚自己的“解释”相对于法律实践现象所处的位置。
+马默在“[What Is Law and What Counts as Law? The Separation Thesis in Context](https://www.douban.com/note/835051937/)”（in *The Cambridge Companion to Legal Positivism*, chap. 20)这篇文章重复了他混乱和错误的还原论。无论是自己的正面论证，还是对对手理论的批评，都是如此。他没有弄清楚还原这种活动的本性，也没有弄清楚还原的对象是什么，还不清楚自己的“解释”相对于法律实践现象所处的位置。
 
 ## 还原与现象
 

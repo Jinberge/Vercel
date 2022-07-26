@@ -46,11 +46,17 @@ const hitTemplate = function(hit) {
   `;
 }
 
+const kbdEvent = new KeyboardEvent("syntheticKey", false);
+console.log(kbdEvent.isComposing); // return false
+
 search.addWidget(
   instantsearch.widgets.searchBox({
     container: '#search-searchbar',
     placeholder: 'Explore the site...',
     poweredBy: true // This is required if you're on the free Community plan
+    queryHook(query, search) {
+    search(query);
+  },
   })
 );
 

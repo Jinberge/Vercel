@@ -49,6 +49,7 @@ const hitTemplate = function(hit) {
 search.addWidget(
   instantsearch.widgets.searchBox({
     container: '#search-searchbar',
+    searchOnEnterKeyPressOnly: true,
     placeholder: 'Explore this site...',
     poweredBy: true // This is required if you're on the free Community plan
   })

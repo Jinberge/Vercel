@@ -63,8 +63,8 @@ body {
   font-size: 1.05em;
   line-height: 1.7;
   color: #202020;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  background: #e7e7e7 url(/img/bg/body-bg.png) 0 0 repeat;
+  text-shadow: none;
+  background: #fff  0 0 repeat;
 }
 
 a {
@@ -115,6 +115,7 @@ a.navi{
     /*box-shadow: inset 0 0 0 1px #fff;*/
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     transition: all 0.23s ease-in-out 0s;
+   
 }
 a.navi:focus {
   color: #b71c1c;
@@ -123,9 +124,18 @@ a.navi:focus {
 }
 
 
-#container {
-  min-height: 595px;
-  background: transparent url(/img/bg/highlight-bg.jpg) 50% 0 no-repeat;
+#headers {
+  min-height: 250px;
+  background-image: url(https://gw.alipayobjects.com/mdn/prod_resou/afts/img/A*dJIiTI0S9CwAAAAAAAAAAAAAARQnAQ);
+  background-position: 50%;
+  background-size: 1950px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.hd{
+  width: 1950px;
+  margin: 0 auto;
 }
 
 .inner {
@@ -368,15 +378,57 @@ footer a:hover {
 
 /* #Media Queries
 ================================================== */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) { 
+  .hd{
+    width: 1024px;
+    margin: 0 auto;
+  }
+}
+
 
 /* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px) { }
+@media only screen and (max-width: 959px) {
+
+}
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 959px) { }
+@media only screen and (min-width: 768px) and (max-width: 959px) { 
+  .hd{
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  #headers {
+    background-position: 100%;
+    background-repeat: repeat;
+  }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .hd{
+      width: 1366px;
+      margin: 0 auto;
+    }
+}
+
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
+  #headers {
+    min-height: 150px;
+    background-position: 100%;
+    background-repeat: repeat;
+  }
+  .hd{
+    width: 390px;
+    margin: 0 auto;
+  }
   header {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -478,6 +530,15 @@ input{
 } 
 
 @media (prefers-color-scheme: dark) {
+
+  .inverted #headers {
+    filter: invert(100%);
+  }
+  #headers {
+    
+    background-image: url(/img/bg/bg-dark.jpeg);
+    
+  }
   #container {
     min-height: 595px;
     background: #151515 50% 0 no-repeat;

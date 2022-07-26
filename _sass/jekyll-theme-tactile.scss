@@ -417,6 +417,17 @@ footer a:hover {
     }
 }
 
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .hd{
+      width: 1024px;
+      margin: 0 auto;
+    }
+}
+
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {

@@ -377,10 +377,7 @@ footer a:hover {
 /* #Media Queries
 ================================================== */
 @media only screen and (min-width: 1024px) and (max-width: 1366px) { 
-  .hd{
-    width: 1024px;
-    margin: 0 auto;
-  }
+ 
 }
 
 
@@ -391,10 +388,7 @@ footer a:hover {
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) { 
-  .hd{
-    width: 768px;
-    margin: 0 auto;
-  }
+  
 
   #headers {
     background-position: 20%;
@@ -403,28 +397,7 @@ footer a:hover {
 
 }
 
-/* Landscape */
-@media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1366px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-    .hd{
-      width: 1366px;
-      margin: 0 auto;
-    }
-}
 
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-    .hd{
-      width: 1024px;
-      margin: 0 auto;
-    }
-}
 
 @media only screen 
   and (min-device-width: 390px) 
@@ -445,10 +418,7 @@ footer a:hover {
     background-position: 100%;
     background-repeat: repeat;
   }
-  .hd{
-    width: 390px;
-    margin: 0 auto;
-  }
+  
   header {
     padding-top: 10px;
     padding-bottom: 10px;

@@ -404,11 +404,9 @@ footer a:hover {
   and (max-device-width: 844px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 1.5) {
-    .hd{
-      width: 844px;
-      margin: 0 auto;
+    
     }
-}
+
 
 
 /* All Mobile Sizes (devices and browser) */
@@ -518,6 +516,8 @@ input{
   width: 325px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
 } 
+
+/*
 
 @media (prefers-color-scheme: dark) {
 
@@ -707,3 +707,6 @@ strong {
 }
 
 }
+
+*/
+

@@ -48,7 +48,7 @@
 #mc_embed_signup #mce-error-response {display:none;}
 #mc_embed_signup #mce-success-response {color:#529214; display:none;}
 #mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
-
+/*
 @media (prefers-color-scheme: dark) {
     #mc_embed_signup form {
         background: #000 0 0 repeat;
@@ -90,4 +90,5 @@
         border: 1px solid #888;
     }
     }
+*/
 

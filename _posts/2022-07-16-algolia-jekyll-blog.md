@@ -53,7 +53,7 @@ permalink: /search/
     display: inline-block;
     margin: 0 12px 12px 0;
     background: #f5f5f500;
-    border: 1px solid #f5f5f5;
+    border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 6px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     transition: all 0.23s ease-in-out 0s;
@@ -308,7 +308,7 @@ search.start();
     display: inline-block;
     margin: 0 12px 12px 0;
     background: #f5f5f500;
-    border: 1px solid #f5f5f5;
+    border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 6px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     transition: all 0.23s ease-in-out 0s;

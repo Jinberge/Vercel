@@ -52,10 +52,10 @@ permalink: /search/
     transition: box-shadow .4s ease,background .4s ease,-webkit-box-shadow .4s ease;
     display: inline-block;
     margin: 0 12px 12px 0;
-    background: #f5f5f536;
+    background: #f5f5f5;
     border: 1px solid #ddd;
     border-radius: 6px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     transition: all 0.23s ease-in-out 0s;
     line-height: 1.7;
     color: #202020;
@@ -272,7 +272,7 @@ search.start();
   max-width: 100%;
   margin-bottom: 15px;
   font-size:1em;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
   border-radius: 6px;
 }
 .post-item {
@@ -307,10 +307,10 @@ search.start();
   transition: box-shadow .4s ease,background .4s ease,-webkit-box-shadow .4s ease;
     display: inline-block;
     margin: 0 12px 12px 0;
-    background: #f5f5f536;
+    background: #f5f5f5;
     border: 1px solid #ddd;
     border-radius: 6px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     transition: all 0.23s ease-in-out 0s;
     line-height: 1.7;
     color: #202020;

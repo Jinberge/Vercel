@@ -26,6 +26,8 @@ kmt007#outlook.com
 - 文章总数：{{ site.posts | size }}
 - 最后构建：{{ site.time | date: "%Y-%m-%d %H:%M"}}
 
+<img src="https://images.repography.com/27822826/Pathsis/Vercel/top-contributors/d0ba76c0e24f3bfafe3beec7521820ed_table.svg" alt="Top contributors" />
+
 ## 订阅
 
 欢迎通过电子邮件订阅，可以随时退订。确认网页载入较慢，请让它在后台慢慢载入。

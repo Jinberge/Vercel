@@ -5,8 +5,6 @@ permalink: /about/
 toc: false
 ---
 
-
-## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Top contributors
 [![Top contributors](https://images.repography.com/27822826/Pathsis/Vercel/top-contributors/d0ba76c0e24f3bfafe3beec7521820ed_table.svg)](https://github.com/Pathsis/Vercel/graphs/contributors)
 
 

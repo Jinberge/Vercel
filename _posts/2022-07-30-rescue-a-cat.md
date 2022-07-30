@@ -25,6 +25,14 @@ excerpt: 历史两个小时救了一只幼猫。
 
 我刚走进桥，就听到它在下面叫了两声。莫非是听到了熟悉的脚步声。我到岸边望着它，唤了它几声，它都回应。于是扫帚也不用了。这家伙就是命大。这次我特意给它拍了个照：
 
+<video controls width="380">
+
+    <source src="/img/2022-07-30/1.mp4"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
+
 <video  controls width="380">
   <source src="/img/2022-07-30/1.mp4" type="video/mp4">
   <p>Your browser doesn't support HTML5 video. Here is
@@ -34,6 +42,14 @@ excerpt: 历史两个小时救了一只幼猫。
 这次捞它，它相当乖了，也不逃，但我足足捞了十五分钟左右，总是无法将其装进伞里。急得我差点想下手把它抓紧去，但又怕自己会失去平衡掉下，特别是如果小猫咬我或抓我，更可能失去平衡。最终我忍不住下去一只脚把它抵到伞里。小心翼翼地提起伞，这下不会像上次那样放在岸边。而是直接提着，直到我自己上来、翻过栅栏，来到安全地带。
 
 小猫不知道是冷的还是筋疲力尽，四脚颤抖，也不发声了，看来是知道自己获救了。
+
+<video controls width="380">
+
+    <source src="/img/2022-07-30/2.mp4"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
 
 这件事的过程中我一直在想一个教训：在日常中我们都是靠着习惯行动的，但是如果遇到一件重要的且没有经验的事情，最好在做之前尽自己所能提前预想可能的状况和步骤。第一次救助时，虽然想到了两个重要的问题，第一，不要做出惊扰小猫的动作和声响，第二，尽可能地保持自己的安全，但对小猫意识到我在救它的可能性和程度估量不足，以至于没有设想好捞上去时的处置。
 

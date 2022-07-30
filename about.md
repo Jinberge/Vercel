@@ -5,10 +5,6 @@ permalink: /about/
 toc: false
 ---
 
-[![Top contributors](https://images.repography.com/27822826/Pathsis/Vercel/top-contributors/d0ba76c0e24f3bfafe3beec7521820ed_table.svg)](https://github.com/Pathsis/Vercel/graphs/contributors)
-
-
-
 - 写是最好的想。不写只想，是虚假的想。
 - 一个人热爱哲学，但又几乎不写作，那会很奇怪。
 - 做哲学而不是学哲学：做哲学的主要方式是写，学哲学的主要方式是读。

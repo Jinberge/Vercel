@@ -27,9 +27,9 @@ excerpt: 历时两个小时救了一只幼猫。
 
 
 <video  controls width="380">
-  <source src="/img/2022-07-30/1.mp4" type="video/mp4">
+  <source src="https://ghost-sh.oss-cn-shanghai.aliyuncs.com/1.mp4" type="video/mp4">
   <p>Your browser doesn't support HTML5 video. Here is
-     a <a href="/img/2022-07-30/1.mp4">link to the video</a> instead.</p>
+     a <a href="https://ghost-sh.oss-cn-shanghai.aliyuncs.com/1.mp4">link to the video</a> instead.</p>
 </video>
 
 这次捞它，它相当乖了，也不逃，但我足足捞了十五分钟左右，总是无法将其装进伞里。急得我差点想下手把它抓紧去，但又怕自己会失去平衡掉下，特别是如果小猫咬我或抓我，更可能失去平衡。最终我忍不住下去一只脚把它抵到伞里。小心翼翼地提起伞，这下不会像上次那样放在岸边。而是直接提着，直到我自己上来、翻过栅栏，来到安全地带。
@@ -37,9 +37,9 @@ excerpt: 历时两个小时救了一只幼猫。
 小猫不知道是冷的还是筋疲力尽，四脚颤抖，也不发声了，看来是知道自己获救了。
 
 <video  controls width="380">
-  <source src="/img/2022-07-30/2.mp4" type="video/mp4">
+  <source src="https://ghost-sh.oss-cn-shanghai.aliyuncs.com/2.mp4" type="video/mp4">
   <p>Your browser doesn't support HTML5 video. Here is
-     a <a href="/img/2022-07-30/2.mp4">link to the video</a> instead.</p>
+     a <a href="https://ghost-sh.oss-cn-shanghai.aliyuncs.com/2.mp4">link to the video</a> instead.</p>
 </video>
 
 这件事我一直在想一个教训：在日常中我们都是靠着习惯行动的，但是如果遇到一件重要的且没有经验的事情，最好提前尽自己所能预想可能的状况和步骤。

@@ -25,7 +25,7 @@ excerpt: 历史两个小时救了一只幼猫。
 
 我刚走进桥，就听到它在下面叫了两声。莫非是听到了熟悉的脚步声。我到岸边望着它，唤了它几声，它都回应。于是扫帚也不用了。这家伙就是命大。这次我特意给它拍了个照：
 
-<video controls>
+<video width="380"  controls>
   <source src="/img/2022-07-30/1.mp4" type="video/mp4">
   <source src="/img/2022-07-30/1.mp4" type="video/webm">
   <p>Your browser doesn't support HTML5 video. Here is

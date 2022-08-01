@@ -166,7 +166,7 @@ last_modified_at: 2022-8-2
 
 [10]Hart, H. L. A. "The concept of law, 2nd edn. Clarendon." (1994), p.109.
 
-[11]See Raz, J. 2009. Between Authority and Interpretation. Oxford University Press, p.193-194.
+[11]See Raz, J. 2009. Between Authority and Interpretation. Oxford University Press, pp.193-194.
 
 [12]“我们通常要用且只能使用‘效力’这个词，来回答发生在规则体系内部的一个问题，即一项规则能否属于该体系，取决于其是否能符合承认规则所提供的判准”。See Hart, H. L. A. "The concept of law, 2nd edn. Clarendon." (1994), p.109。德沃金准确把握到了承认规则的谱系检验是事实性的，只关心规则的制作和发展方式，而不是其内容。See Dworkin, R.  1977. Taking Rights Seriously. Harvard University Press, pp.17-19.
 

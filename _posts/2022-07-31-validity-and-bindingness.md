@@ -170,7 +170,7 @@ last_modified_at: 2022-8-2
 
 [12]“我们通常要用且只能使用‘效力’这个词，来回答发生在规则体系内部的一个问题，即一项规则能否属于该体系，取决于其是否能符合承认规则所提供的判准”。See Hart, H. L. A. "The concept of law, 2nd edn. Clarendon." (1994), p.109。德沃金准确把握到了承认规则的谱系检验是事实性的，只关心规则的制作和发展方式，而不是其内容。See Dworkin, R.  1977. Taking Rights Seriously. Harvard University Press, pp.17-19.
 
-[13]Hart, H. L. A. "The concept of law, 2nd edn. Clarendon." (1994), p.109-110.
+[13]Hart, H. L. A. "The concept of law, 2nd edn. Clarendon." (1994), pp.109-110.
 
 [14]Hart, H. L. A. "The concept of law, 2nd edn. Clarendon." (1994), p.117.
 
@@ -192,7 +192,7 @@ last_modified_at: 2022-8-2
 
 [23]See Dworkin, R.  1977. Taking Rights Seriously. Harvard University Press, p.37.这个论证其实其实可以被合理地吸纳为对次级规则特别是承认规则的论证，德沃金的论证的可取之处最多在于表明承认规则包含一系列的原则，但并不推翻如下立场，承认规则确实由于被实践而成其为规则的。
 
-[24]See Dworkin, R.  1977. Taking Rights Seriously. Harvard University Press, p.35-36.
+[24]See Dworkin, R.  1977. Taking Rights Seriously. Harvard University Press, pp.35-36.
 
 [25]SeeRaz, Joseph. "Legal Principle and the Limited of Law." *Yale Law Journal* 81 (1972).
 

@@ -146,15 +146,15 @@ last_modified_at: 2022-8-2
 
 ## 注释
 
-[1]See Marmor, Andrei. "What Is Law and What Counts As Law? The Separation Thesis In Context." __The Separation Thesis in Context (August 1, 2017). Cornell Legal Studies Research Paper__ 17-34 (2017).
+[1]See Marmor, Andrei. "What Is Law and What Counts As Law? The Separation Thesis In Context." *The Separation Thesis in Context (August 1, 2017). Cornell Legal Studies Research Paper* 17-34 (2017).
 
 [2]Hart, H. L. A. "The concept of law, 2nd edn. Clarendon." (1994), p17.
 
 [3]关于这种哲学工作理念，罗尔斯有一个相当好的表述。他关于自己建立的正义理论的一个重要评论：他认为他的正义理论总体来说没有原创性，只是表达了传统和众所周知的正义观点，正义理论的功绩在将它们组织成一个前后一致和融贯的体系，并使得这些观点更为人们所欣赏。罗尔斯：《正义论》，何怀宏等译，中国社会科学出版社1988年版，第2页。
 
-[4]See "Definition and Theory in Jurisprudence" in Hart, Herbert Lionel Adolphus. __Essays in jurisprudence and philosophy__. OUP Oxford, 1983.
+[4]See "Definition and Theory in Jurisprudence" in Hart, Herbert Lionel Adolphus. *Essays in jurisprudence and philosophy*. OUP Oxford, 1983.
 
-[5]See Raz, Joseph. "Can there be a theory of law?." __The blackwell guide to the philosophy of law and legal theory__ 324 (2005): 325-26.
+[5]See Raz, Joseph. "Can there be a theory of law?." *The blackwell guide to the philosophy of law and legal theory* 324 (2005): 325-26.
 
 [6]Hart, H. L. A. "The concept of law, 2nd edn. Clarendon." (1994), pp.56-58.
 
@@ -194,33 +194,33 @@ last_modified_at: 2022-8-2
 
 [24]See Dworkin, R.  1977. Taking Rights Seriously. Harvard University Press, p.35-36.
 
-[25]SeeRaz, Joseph. "Legal Principle and the Limited of Law." __Yale Law Journal__ 81 (1972).
+[25]SeeRaz, Joseph. "Legal Principle and the Limited of Law." *Yale Law Journal* 81 (1972).
 
 [25]诚如马默所承认的，原则成为法律的根据既在于其来源，也在于其优点。
 
 [26]如果德沃金所说的制度性支持实际上是对原则在法律实践中有来源的话，尽管这种来源并不“完美，因为并不能追溯至承认规则之类的终极规则。See Dworkin, R.  1977. Taking Rights Seriously. Harvard University Press, p.41.
 
-[27]正如下文马默所指出的。See Marmor, Andrei. "What Is Law and What Counts As Law? The Separation Thesis In Context." __The Separation Thesis in Context (August 1, 2017). Cornell Legal Studies Research Paper__ 17-34 (2017).
+[27]正如下文马默所指出的。See Marmor, Andrei. "What Is Law and What Counts As Law? The Separation Thesis In Context." *The Separation Thesis in Context (August 1, 2017). Cornell Legal Studies Research Paper* 17-34 (2017).
 
 [28]See Dworkin, R.  1977. Taking Rights Seriously. Harvard University Press, p.41.
 
 [29]See Dworkin, R.  1977. Taking Rights Seriously. Harvard University Press, p.36, 42.
 
-[30]See Gardner, John. "Legal Positivism: 5 ½ Myths." __Am. J. Juris.__ 46 (2001): 199.
+[30]See Gardner, John. "Legal Positivism: 5 ½ Myths." *Am. J. Juris.* 46 (2001): 199.
 
 [31]重申一遍，“效力”在本文中等同于“有效性”。
 
-[32]See Marmor, Andrei. "What Is Law and What Counts As Law? The Separation Thesis In Context." __The Separation Thesis in Context (August 1, 2017). Cornell Legal Studies Research Paper__ 17-34 (2017).
+[32]See Marmor, Andrei. "What Is Law and What Counts As Law? The Separation Thesis In Context." *The Separation Thesis in Context (August 1, 2017). Cornell Legal Studies Research Paper* 17-34 (2017).
 
 [33]参见上文第一节第(8)点。
 
 [34]“拉兹就持有这样的假设，因为他主张，法官可能对原则以及原则的分量存在不同意见这样一种事实使得法官必须具有我拒绝的那种自由裁量权。”See Dworkin, R.  1977. Taking Rights Seriously. Harvard University Press, pp.69-70.
 
-[35]为了理解一种实践，人们需要解释实践，但是只是解释其他人如何看待实践是不够的，只是说明其他人对实践的解释也是不够的，一个人必须最终依赖自己对实践的解释。See Dworkin, Ronald. __Law's empire__. Harvard University Press, 1986, p.55.这是实践解释的一个要义，德沃金大概用它来对抗哈特的社会规则理论，有义务做什么的问题取决于其他人普遍相信有义务做什么。See Dworkin, R.  1977. Taking Rights Seriously. Harvard University Press, pp.55-58.
+[35]为了理解一种实践，人们需要解释实践，但是只是解释其他人如何看待实践是不够的，只是说明其他人对实践的解释也是不够的，一个人必须最终依赖自己对实践的解释。See Dworkin, Ronald. *Law's empire*. Harvard University Press, 1986, p.55.这是实践解释的一个要义，德沃金大概用它来对抗哈特的社会规则理论，有义务做什么的问题取决于其他人普遍相信有义务做什么。See Dworkin, R.  1977. Taking Rights Seriously. Harvard University Press, pp.55-58.
 
-[36]“当一个法官面临一个艰难决定，在开始他的研究之前他必须假定，原则上有三种可能。他必须纳入考虑的一组标准，一齐要求他做出支持原告的决定，或者要求他做出支持被告的决定，或者不要求他支持任何一方而只是允许任何一方。他必须也要承认，他在某种程度不确定这三种可能的中哪一种事实上是对的；在这种情况下，他必须根据在他看来最强有力的可能来做出决定。但是对第三种可能不确定，那么对第一种或第二种也不确定；法律可能授权他一种在第三种意义上的自由裁量权以做出其中任一可能的决定，但是否确实如此，这是法律材料一齐达成什么结论的问题，并且他对于这些法律材料是否为第一种或第二种的**那个**（__that__）结论提供证成也是不确定的。”See Dworkin, R.  1977. Taking Rights Seriously. Harvard University Press, p.70.
+[36]“当一个法官面临一个艰难决定，在开始他的研究之前他必须假定，原则上有三种可能。他必须纳入考虑的一组标准，一齐要求他做出支持原告的决定，或者要求他做出支持被告的决定，或者不要求他支持任何一方而只是允许任何一方。他必须也要承认，他在某种程度不确定这三种可能的中哪一种事实上是对的；在这种情况下，他必须根据在他看来最强有力的可能来做出决定。但是对第三种可能不确定，那么对第一种或第二种也不确定；法律可能授权他一种在第三种意义上的自由裁量权以做出其中任一可能的决定，但是否确实如此，这是法律材料一齐达成什么结论的问题，并且他对于这些法律材料是否为第一种或第二种的**那个**（*that*）结论提供证成也是不确定的。”See Dworkin, R.  1977. Taking Rights Seriously. Harvard University Press, p.70.
 
-[37]参见德沃金关于外部怀疑主义的讨论。“首先我说，奴隶制是错误的；然后我补充道，奴隶制“真的”或“客观上”是错误的——我补充这句话的意思并不只是继续重复我的意见（opinion），而是认为，即使我并不这这样认为，奴隶制依然是错误的，奴隶制是否错误是有正确答案的，而其他的观点都是错误的。”See Dworkin, Ronald. __Law's empire__. Harvard University Press, 1986, pp.78-83.
+[37]参见德沃金关于外部怀疑主义的讨论。“首先我说，奴隶制是错误的；然后我补充道，奴隶制“真的”或“客观上”是错误的——我补充这句话的意思并不只是继续重复我的意见（opinion），而是认为，即使我并不这这样认为，奴隶制依然是错误的，奴隶制是否错误是有正确答案的，而其他的观点都是错误的。”See Dworkin, Ronald. *Law's empire*. Harvard University Press, 1986, pp.78-83.
 
 [38]See Dworkin, R.  1977. Taking Rights Seriously. Harvard University Press, p39.
 
@@ -230,4 +230,4 @@ last_modified_at: 2022-8-2
 
 [41]先例对后来案件非全或全无的约束力与原则特别相似。在解释先例如何约束来案件时，德沃金就形象地使用“地心引力”(gravitational force)这个表述。See Dworkin, R.  1977. Taking Rights Seriously. Harvard University Press, p111. 
 
-[42]See Dworkin, Ronald. __Justice for hedgehogs__. Harvard University Press, 2011, p405-409.在与格林伯格的私人谈话中，德沃金再次确认了他的观点的这一转变。See  Greenberg, M. (2013). Moral Impact Theory of Law. *Yale Law Journal*,123, 1288.
+[42]See Dworkin, Ronald. *Justice for hedgehogs*. Harvard University Press, 2011, p405-409.在与格林伯格的私人谈话中，德沃金再次确认了他的观点的这一转变。See  Greenberg, M. (2013). Moral Impact Theory of Law. *Yale Law Journal*,123, 1288.

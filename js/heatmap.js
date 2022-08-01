@@ -128,7 +128,7 @@ function generateCalendar() {
 
 function renderSvg() {
   // get about file
-  let aboutFile = fs.readFileSync('./about.html', 'utf8')
+  let aboutFile = fs.readFileSync('./about.md', 'utf8')
   const svg = generateCalendar(getPostsData())
   aboutFile = aboutFile.replace('<!-- heatmap -->', svg)
   fs.writeFileSync('./about.md', aboutFile)

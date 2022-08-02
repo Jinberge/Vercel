@@ -148,7 +148,7 @@ last_modified_at: 2022-8-2
 
 [1]See Marmor, Andrei. "What Is Law and What Counts As Law? The Separation Thesis In Context." *The Separation Thesis in Context (August 1, 2017). Cornell Legal Studies Research Paper* 17-34 (2017).
 
-[2]Hart, H. L. A. "The concept of law, 2nd edn. Clarendon." (1994), p17.
+[2]Hart, H. L. A. "The concept of law, 2nd edn. Clarendon." (1994), p.17.
 
 [3]关于这种哲学工作理念，罗尔斯有一个相当好的表述。他关于自己建立的正义理论的一个重要评论：他认为他的正义理论总体来说没有原创性，只是表达了传统和众所周知的正义观点，正义理论的功绩在将它们组织成一个前后一致和融贯的体系，并使得这些观点更为人们所欣赏。罗尔斯：《正义论》，何怀宏等译，中国社会科学出版社1988年版，第2页。
 
@@ -226,6 +226,6 @@ last_modified_at: 2022-8-2
 
 [40]See Greenberg, M. (2013). Moral Impact Theory of Law. *Yale Law Journal*, 123, 1288.
 
-[41]先例对后来案件非全或全无的约束力与原则特别相似。在解释先例如何约束来案件时，德沃金就形象地使用“地心引力”(gravitational force)这个表述。See Dworkin, R.  1977. Taking Rights Seriously. Harvard University Press, p111. 
+[41]先例对后来案件非全或全无的约束力与原则特别相似。在解释先例如何约束来案件时，德沃金就形象地使用“地心引力”(gravitational force)这个表述。See Dworkin, R.  1977. Taking Rights Seriously. Harvard University Press, p.111. 
 
 [42]See Dworkin, Ronald. *Justice for hedgehogs*. Harvard University Press, 2011, p405-409.在与格林伯格的私人谈话中，德沃金再次确认了他的观点的这一转变。See  Greenberg, M. (2013). Moral Impact Theory of Law. *Yale Law Journal*,123, 1288.

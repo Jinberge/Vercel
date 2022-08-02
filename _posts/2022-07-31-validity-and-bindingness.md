@@ -194,9 +194,7 @@ last_modified_at: 2022-8-2
 
 [24]See Dworkin, R.  1977. Taking Rights Seriously. Harvard University Press, pp.35-36.
 
-[25]SeeRaz, Joseph. "Legal Principle and the Limited of Law." *Yale Law Journal* 81 (1972).
-
-[25]诚如马默所承认的，原则成为法律的根据既在于其来源，也在于其优点。
+[25]See Raz, Joseph. "Legal Principle and the Limited of Law." *Yale Law Journal* 81 (1972).
 
 [26]如果德沃金所说的制度性支持实际上是对原则在法律实践中有来源的话，尽管这种来源并不“完美，因为并不能追溯至承认规则之类的终极规则。See Dworkin, R.  1977. Taking Rights Seriously. Harvard University Press, p.41.
 

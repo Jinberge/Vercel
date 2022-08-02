@@ -11,12 +11,12 @@ layout: default
             <a class="post-header" href="{{ post.url | relative_url }}">{{ post.title }}</a>
           </h1>
           {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">
+          <div class="post-meta">
             <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%Y-%m-%d" }}</time>
             {%- if post.last_modified_at -%}
               （最近更新：<time datetime="{{ post.last_modified_at | date_to_xmlschema }}" itemprop="datePublished">{{ post.last_modified_at | date: "%Y-%m-%d" }}</time>）
             {%- endif -%}
-          </span>
+          </div>
           <p>{{ post.excerpt }}</p>
         
         {%- endfor -%}

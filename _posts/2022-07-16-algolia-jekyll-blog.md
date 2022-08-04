@@ -71,7 +71,7 @@ permalink: /search/
 
 <!-- script pointing to jekyll-search.js -->
 
-<script src="/js/simple-jekyll-search.min.js"></script>
+<script src="https://unpkg.com/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js"></script>
 
 <script>
 SimpleJekyllSearch({
@@ -85,8 +85,6 @@ SimpleJekyllSearch({
   })
 </script>
 ```
-
-当然，您也可以将这个文件下载下来，复制在本地的js文件中（如没有则新建），并将`https://unpkg.com/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js`替换为`/js/simple-jekyll-search.min.js`，以实现完全的本地化。
 
 此时，访问`your_domain_name/search/`，就能看到搜索页面了。
 
@@ -336,7 +334,7 @@ search.start();
 {% endraw %}
 ```
 
-当然，你可以将其放置在任何你先要展现搜索的模版文件中，比如在archive.html或tags.html中。不必单独成页。
+当然，你可以将以上代码放置在任何你想要要展现搜索的模版文件中，比如在archive.html或tags.html中。不必单独成页。
 
 ### 3.5在本地运行测试
 

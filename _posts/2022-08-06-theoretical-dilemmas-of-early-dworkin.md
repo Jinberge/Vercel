@@ -81,9 +81,7 @@ excerpt: 德沃金关于“全有或全无”问题的观点是以就特定议�
 
 例如，如果对于有效遗嘱签订需要多少见证人的议题，“有效遗嘱的签订必须三个以上见证人”这项法律要求，是一项原则而不是一项规则，则在发生该议题时，在有的具体案件中，法官要求必须三人以上的见证人，在有的具体案件中，法官则不要求三人以上的见证人。这种情况并不意味着法律原则需要被修正或精确化。原则和规则常常不易区分，它们的差别往往是表述形式上的，比如原则经常包含“合理”、“公平”等一般抽象词汇，但这种差别并不是决定性的。“有效遗嘱的签订必须三个以上见证人”依然可以一项原则的内容，而“国会不得制定限制言论自由的法律”可以被是一项规则。[更多的例子参见 *TRS* 第二章，第122-123段]
 
-|Physics⟩ ⊗ |LaTeX⟩ ⊗ (|Font engineering⟩ + |Type design⟩) / √2.
-
-$$ \gdef\id{\mathrm{id}} \gdef\tr{\operatorname{tr}} \gdef\Hom{\operatorname{Hom}} \gdef\End{\operatorname{End}} \gdef\1{\mathbf{1}} \gdef\cat#1{\mathcal{#1}} \gdef\Cat#1{\textsf{\textbf{#1}}} \gdef\qtext#1{\enspace\text{#1}\enspace} \gdef\ldual#1{ {}^\vee\mkern{-2mu}#1} $$ 
+$$ (h\circ g)\circ f = h\circ(g\circ f) $$
 
 我们现在可以总结“全有或全无”论题：
 

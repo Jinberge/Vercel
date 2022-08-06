@@ -5,6 +5,26 @@ tags: 法律有效性 德沃金 哈特 后记 法律实证主义 规则 原则
 excerpt: 德沃金关于“全有或全无”问题的观点是以就特定议题只能有一个法律要求且法律规则的要求等同于法律的要求为前提的。这几乎堵死了德沃金为原则在法律中寻找某种位置的路。解决这个理论不是本文的主要目标。这个问题在早期的《认真对待权利》中已在酝酿，在中期的《法律帝国》中得以全面解决。
 ---
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js" integrity="sha384-X/XCfMm41VSsqRNQgDerQczD69XqmjOOOwYQvr/uuC+j4OPoNhVgjdGFwhvN02Ja" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          // customised options
+          // • auto-render specific keys, e.g.:
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          // • rendering keys, e.g.:
+          throwOnError : false
+        });
+    });
+</script>
+
 ## 1.前言
 
 回顾《后记》，我们有两个基本的印象：第一，哈特对早期德沃金的批评尽管论据有缺陷，但结论很准确；第二，哈特完全没有捕捉到中期德沃金的巨大理论转变。中期德沃金才是彻底与实证主义者分道扬镳的人。在《法律概念》出版之后，这本书对原则在法律中的地位和作用的轻描淡写，受到了广泛且可以说恰当的批评。哈特承认，这的确构成这本书的一个独立和明显的缺陷。但是，使哈特无法接受的是，这种批评的始作俑者德沃金却坚持一个激烈主张：“除非放弃本书的主要论点，否则原则无法被纳入我的法律理论中”。哈特试图证明，如果原则的确如德沃金所说的是法律的一部分，那么德沃金不能使自己的上述批评前后一致：他将不能既主张原则是在逻辑上相对于规则不同的一种法律标准类型，又主张实证主义的核心模型必须被放弃。恰恰相反，原则被纳入法律需要以这个核心模型为前提：在第一个问题上，原则在许多案件中击败规则，恰恰说明了不止原则有分量维度；在第二个问题上，既然原则的主要功能是说明和证成相关规则，那么就需要以一些预先被识别的规则供原则来说明和证成。

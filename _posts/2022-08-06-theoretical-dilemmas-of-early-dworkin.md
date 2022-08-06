@@ -83,6 +83,8 @@ excerpt: 德沃金关于“全有或全无”问题的观点是以就特定议�
 
 |Physics⟩ ⊗ |LaTeX⟩ ⊗ (|Font engineering⟩ + |Type design⟩) / √2.
 
+$$ \gdef\id{\mathrm{id}} \gdef\tr{\operatorname{tr}} \gdef\Hom{\operatorname{Hom}} \gdef\End{\operatorname{End}} \gdef\1{\mathbf{1}} \gdef\cat#1{\mathcal{#1}} \gdef\Cat#1{\textsf{\textbf{#1}}} \gdef\qtext#1{\enspace\text{#1}\enspace} \gdef\ldual#1{ {}^\vee\mkern{-2mu}#1} $$ 
+
 我们现在可以总结“全有或全无”论题：
 
 > (All-or-Nothing Thesis, **ANT**)规则$R$与原则P在逻辑上是不同的，就特定议题i而言，只能有一个R，当发生包含i的具体案件时，必须适用R且只能提出一个要求d；就i而言，可能有不止一个P，且当发生包含i的具体案件时，不是必须适用P，且若适用，不必只提出一个要求d。

@@ -5,12 +5,6 @@ layout: default
 <h1>{{ page.title }}</h1>
 <div class="post-meta">{{ page.date | date: "%Y-%m-%d" }} </div>
 
-{ % for post in site.jekyll -%} 
-    { % if post.tag != "hidden" %} 
-        { % include post_list_item.html %} 
-    { % endif %} 
-{ % endfor -%}
-
 {% include toc.html html=content %}
 
 {{ content | toc }}

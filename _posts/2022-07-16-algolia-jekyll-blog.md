@@ -133,8 +133,8 @@ SimpleJekyllSearch({
 <script type="text/javascript">
   algoliasearchNetlify({
     appId: 'JF08G8WUNK', //替换为你的数据
-    apiKey: 'b113a01ae9d39bb783055a5d4b01b701', //替换为你的数据
-    siteId: '0c6e6f1e-28a4-44fd-bf45-60e7113c4fb5', //Search-Only API Key 替换为你的数据
+    apiKey: 'b113a01ae9d39bb783055a5d4b01b701', //Search-Only API Key 替换为你的数据
+    siteId: '0c6e6f1e-28a4-44fd-bf45-60e7113c4fb5', // 替换为你的数据
     branch: 'master',
     selector: 'div#search',
     placeholder: 'Explore the site...', //搜索框的占位符

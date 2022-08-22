@@ -109,7 +109,7 @@ SimpleJekyllSearch({
 
 ## 2.在Netlify上使用Algolia
 
-假设你在Netlify上部署了一个网站，由于两者有密切的合作，你会更方面使用Algolia。
+假设你在Netlify上部署了一个网站，由于两者有密切的合作，你会更方便使用Algolia。
 
 先按照[官方文档](https://www.algolia.com/doc/tools/crawler/netlify-plugin/quick-start/)操作。
 
@@ -175,7 +175,7 @@ gem "kramdown-parser-gfm"
 
 gem 'jekyll', '~> 3.6'
 ```
-我一开始只是把`gem 'jekyll-algolia'`添加到这行代码中，导致不起效。`gem 'jekyll-algolia'`必须在`group :jekyll_plugins do`的片段中。而且，为了这样做，你**无需**改动本来工作良好的其他代码。
+我一开始只是把`gem 'jekyll-algolia'`添加到这段代码中，导致不起效。`gem 'jekyll-algolia'`必须在`group :jekyll_plugins do`的片段中。而且，为了这样做，你**无需**改动本来工作良好的其他代码。
 
 ### 3.2配置_config.yml
 

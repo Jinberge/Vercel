@@ -122,7 +122,28 @@ SimpleJekyllSearch({
 ```html
 <div id="search"></div>
 ```
-并将全部代码复制到你想显示Algolia的搜索框的任何网页的模版之中。假设你想在你的archive模版中显示，则将其放置在最顶端。假设你想使之单独成页，请在根目录新建search.md文件，将这段代码粘贴进去，并按照之前的方法为之添加导航。
+并将如下全部代码复制到你想显示Algolia的搜索框的任何网页的模版之中。
+
+```html
+<div id="search"></div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'JF08G8WUNK', //替换为你的数据
+    apiKey: 'b113a01ae9d39bb783055a5d4b01b701', //替换为你的数据
+    siteId: '0c6e6f1e-28a4-44fd-bf45-60e7113c4fb5', //Search-Only API Key 替换为你的数据
+    branch: 'master',
+    selector: 'div#search',
+    placeholder: 'Explore the site...', //搜索框的占位符
+    detached: false, //移动视图下，搜索不使用分离模式
+    hitsPerPage: 10, //默认返回10个结果
+  });
+</script>
+```
+
+假设你想在你的archive模版中显示，则将其放置在最顶端。假设你想使之单独成页，请在根目录新建search.md文件，将这段代码粘贴进去，并按照之前的方法为之添加导航。
 
 注意，其中的apikey是你的 Search-Only API Key。
 

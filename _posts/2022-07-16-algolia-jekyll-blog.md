@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 为Vercel上的Jekyll网站添加Algolia搜索功能
+title: 为jekyll网站添加algolia搜索功能
 tags: 博客
-excerpt: 在Vercel上设置Algolia的关键的步骤。
+excerpt: 添加algolia的关键的步骤。
 render_with_liquid: false
 last_modified_at: 2022-8-23
 ---

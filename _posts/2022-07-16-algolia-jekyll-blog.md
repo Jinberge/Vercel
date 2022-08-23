@@ -378,7 +378,6 @@ ALGOLIA_API_KEY='your_admin_api_key' bundle exec jekyll algolia
 
 ![vercel jekyll](/img/2022-07-16/1.png)
 
-
 ### 3.6在Vercel上配置
 
 假设你在本地成功运行Jekyll。现在请提交一次代码，这将把你在本地构建的网页传送到Vercel。Vercel如果成功建构，则继续在Vercel上的配置。在build command选项中填入如下命令：

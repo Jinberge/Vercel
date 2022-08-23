@@ -20,7 +20,7 @@ last_modified_at: 2022-8-23
 第一，在根目录新建一个名为search.json的文件，内容如下：
 
 ```json
-{% raw %}
+
 ---
 layout: none
 ---
@@ -37,7 +37,7 @@ layout: none
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
-{% endraw %}
+
 ```
 
 第二，在根目录新建search.md文件，内容如下：

@@ -204,14 +204,12 @@ gem 'jekyll', '~> 3.6'
 添加如下代码：
 
 ```yaml
-{% raw %}
 # _config.yml
 
 algolia:
   application_id: your_application_id
   index_name:     jekyll # 你自己在algolia中创建的index
   search_only_api_key: your_search_only_api_key
-{% endraw %}
 ```
 
 ### 3.3配置Algolia前端
@@ -219,7 +217,6 @@ algolia:
 在_includes文件夹中新建algolia.html文件，添加以下内容：
 
 ```html
-{% raw %}
 <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/moment.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css">
@@ -337,7 +334,6 @@ search.start();
 }
 
 </style>
-{% endraw %}
 ```
 
 你可以自行修改某些样式。
@@ -347,13 +343,11 @@ search.start();
 方法同简单本地搜索类似，在根目录新建search.md文件，添加如下内容：
 
 ```html
-{% raw %}
 <div id="search-searchbar"></div>
 
 <div class="post-list" id="search-hits">
 </div>
 {% include algolia.html %}
-{% endraw %}
 ```
 
 当然，你可以将以上代码放置在任何你想要要展现搜索的模版文件中，比如在archive.html或tags.html中。不必单独成页。

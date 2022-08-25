@@ -168,11 +168,10 @@ a.paginator{
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
-a.paginator:focus {
+a.paginator:focus:hover {
   color: #b71c1c;
   background:#ddd;
   border: 1px solid #fff;
-  box-shadow:none;
   transition: all 0.23s ease-in-out 0s;
 }
 

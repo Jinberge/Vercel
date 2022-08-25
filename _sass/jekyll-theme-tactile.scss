@@ -168,7 +168,7 @@ a.paginator{
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
-a.paginator:focus:hover {
+a.paginator:hover:focus {
   color: #b71c1c;
   background:#ddd;
   border: 1px solid #fff;

@@ -5,6 +5,7 @@ permalink: /about/
 toc: false
 ---
 
+- 别谈学术，别谈理想了；谈工作，谈生存，谈论文……你干的是一门营生。
 - 要点！要点！要点！说话写作讲要点！
 - [写是最好的想。不写只想，是虚假的想。](/how-to-do-philosophy.html)
 - 一个人热爱哲学，但又几乎不写作，那会很奇怪。
@@ -49,4 +50,6 @@ kmt007#outlook.com
 ## 版权声明
 
 未经许可，禁止转载、复制、摘编、改写。如需引用，请注明来源，并保留原始链接。
+
+<iframe src="https://uselessulysses.substack.com/embed" width="480" height="320" style="border:none; background:none;" frameborder="0" scrolling="no"></iframe>
 

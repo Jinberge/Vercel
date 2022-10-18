@@ -33,7 +33,7 @@
     padding: 4px 8px;
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 25px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 30px rgb(0 0 0 / 15%);
     transition: all 0.23s ease-in-out 0s;
     line-height: 1.7;
     color: #303030;

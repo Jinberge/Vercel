@@ -1,4 +1,4 @@
-title: pathos page
+title: The Pointer
 description: 法哲学片断与学术之路
 show_downloads: false
 permalink: /:title:output_ext
@@ -7,13 +7,12 @@ author: Pathos Page
 google_analytics: 
 theme: jekyll-theme-tactile
 baseurl:
-url: https://pathos.page
+url: https://thepointer.com.cn
 incremental: true
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll/tagging
   - jekyll-tagging-related_posts

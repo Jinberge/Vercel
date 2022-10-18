@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 gemspec
 gem "jekyll-feed"
-gem "jekyll-paginate"s
+gem "jekyll-paginate"
 gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
 gem "jekyll-tagging"

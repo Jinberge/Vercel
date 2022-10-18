@@ -1,9 +1,9 @@
-title: pathos page
+title: 若虚
 description: 法哲学片断与学术之路
 show_downloads: false
 permalink: /:title:output_ext
 timezone: Asia/Shanghai
-author: Pathos Page
+author: Pathsis
 google_analytics: 
 theme: jekyll-theme-tactile
 baseurl:

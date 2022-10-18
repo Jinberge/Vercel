@@ -51,5 +51,4 @@ kmt007#outlook.com
 
 未经许可，禁止转载、复制、摘编、改写。如需引用，请注明来源，并保留原始链接。
 
-<iframe src="https://uselessulysses.substack.com/embed" width="480" height="320" style="border:none; background:none;" frameborder="0" scrolling="no"></iframe>
 

@@ -3,11 +3,11 @@ description: 法哲学片断与学术之路
 show_downloads: false
 permalink: /:title:output_ext
 timezone: Asia/Shanghai
-author: Ulysses
+author: ulysses
 google_analytics: 
 theme: jekyll-theme-tactile
 baseurl:
-url: https:/uselessulysses.com
+url: https://uselessulysses.com
 incremental: true
 plugins:
   - jekyll-feed

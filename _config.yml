@@ -19,7 +19,7 @@ plugins:
 sass:
     style: compressed
 paginate: 10
-paginate_path: "/p/:num"
+paginate_path: "/page/:num"
 
 algolia:
   application_id: 9872TK5O1S

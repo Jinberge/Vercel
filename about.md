@@ -5,6 +5,7 @@ permalink: /about/
 toc: false
 ---
 
+<!--
 - 别谈学术，别谈理想了；谈工作，谈生存，谈论文……你干的是一门营生。
 - 要点！要点！要点！说话写作讲要点！
 - [写是最好的想。不写只想，是虚假的想。](/how-to-do-philosophy.html)
@@ -34,23 +35,23 @@ kmt007#outlook.com
 
 欢迎通过电子邮件订阅，可以随时退订。确认网页载入较慢，请让它在后台慢慢载入。
 
-<!-- Begin Mailchimp Signup Form -->
+<!-- Begin Mailchimp Signup Form 
 <link href="/assets/css/mailchimp.css" rel="stylesheet" type="text/css">
 <div id="mc_embed_signup">
 <form action="https://uselus.us6.list-manage.com/subscribe/post?u=f54222e57b120370056706959&amp;id=7f2a5ff8cd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="required">
- <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+ <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups 
  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f54222e57b120370056706959_7f2a5ff8cd" tabindex="-1" value=""></div>
  <div class="clear"><input type="submit" value="现在订阅" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
  </div>
 </form>
 </div>
 
-<!--End mc_embed_signup-->
+End mc_embed_signup
 
 ## 版权声明
 
 未经许可，禁止转载、复制、摘编、改写。如需引用，请注明来源，并保留原始链接。
 
-
+ -->

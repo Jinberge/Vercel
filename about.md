@@ -5,9 +5,7 @@ permalink: /about/
 toc: false
 ---
 
-# 嫦娥应悔偷灵药，
-# 碧海青天夜夜心。
-<!--
+
 - 别谈学术，别谈理想了；谈工作，谈生存，谈论文……你干的是一门营生。
 - 要点！要点！要点！说话写作讲要点！
 - [写是最好的想。不写只想，是虚假的想。](/how-to-do-philosophy.html)
@@ -37,7 +35,7 @@ kmt007#outlook.com
 
 欢迎通过电子邮件订阅，可以随时退订。确认网页载入较慢，请让它在后台慢慢载入。
 
-<!-- Begin Mailchimp Signup Form 
+<!-- Begin Mailchimp Signup Form  -->
 <link href="/assets/css/mailchimp.css" rel="stylesheet" type="text/css">
 <div id="mc_embed_signup">
 <form action="https://uselus.us6.list-manage.com/subscribe/post?u=f54222e57b120370056706959&amp;id=7f2a5ff8cd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -56,4 +54,4 @@ End mc_embed_signup
 
 未经许可，禁止转载、复制、摘编、改写。如需引用，请注明来源，并保留原始链接。
 
- -->
+

@@ -48,7 +48,6 @@ kmt007#outlook.com
 </form>
 </div>
 
-End mc_embed_signup
 
 ## 版权声明
 

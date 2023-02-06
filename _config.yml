@@ -1,4 +1,4 @@
-title: useless ulysses
+title: the pointer
 description: 哲学片段与学术之路
 show_downloads: false
 permalink: /:title:output_ext
@@ -7,7 +7,7 @@ author: Ulysses
 google_analytics: 
 theme: jekyll-theme-tactile
 baseurl:
-url: https://uselessulysses.com
+url: https://thepointer.com.cn
 incremental: true
 plugins:
   - jekyll-feed
